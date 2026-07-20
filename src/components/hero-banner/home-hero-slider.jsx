@@ -69,7 +69,6 @@ const HomeHeroSlider = () => {
           loop={true}
           effect="fade"
           fadeEffect={{ crossFade: true }}
-          autoHeight={true}
           autoplay={{
             delay: 6000,
             disableOnInteraction: false,
@@ -91,7 +90,6 @@ const HomeHeroSlider = () => {
                       src={item.img} 
                       alt={item.title} 
                       fill
-                      style={{objectFit: 'cover', objectPosition: 'center 20%'}}
                       priority={index === 0}
                       className="tp-luxury-slider-bg"
                     />
