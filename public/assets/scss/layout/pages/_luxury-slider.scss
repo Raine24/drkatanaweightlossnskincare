@@ -170,16 +170,16 @@
   }
 
   /* ==========================================================================
-     TABLET & MOBILE RESPONSIVENESS
+     TABLET & MOBILE RESPONSIVENESS (PREMIUM GLASSMORPHISM)
      ========================================================================== */
   
   @media (max-width: 991px) {
     /* Tablet Portrait (768px - 991px) */
-    height: 100vh;
-    min-height: 800px;
+    height: 85vh;
+    min-height: 650px;
     
     .tp-luxury-slider-item {
-      display: block; /* Remove flex column to rely on absolute positioning */
+      display: block; 
     }
 
     .tp-luxury-slider-bg-wrapper {
@@ -191,25 +191,26 @@
     }
 
     .tp-luxury-slider-bg {
-      object-fit: contain; /* Prevents ANY product cropping */
-      object-position: top center; /* Image snaps to the top */
+      object-fit: cover; /* Fill the whole screen! */
+      object-position: 65% center; /* Shift focus slightly right to avoid cropping products */
     }
 
     .tp-luxury-slider-overlay {
-      /* Soft gradient to blend the image bottom edge into the text area */
-      background: linear-gradient(to bottom, rgba(252, 251, 249, 0) 30%, rgba(252, 251, 249, 1) 60%);
+      background-color: rgba(255, 255, 255, 0.1); /* Extremely subtle 10% light overlay */
     }
 
     .tp-luxury-slider-container {
       position: absolute;
-      bottom: 80px;
-      left: 0;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
       width: 100%;
       padding-left: 20px;
       padding-right: 20px;
       display: flex;
       justify-content: center;
       text-align: center;
+      z-index: 2;
     }
 
     .tp-luxury-slider-content {
@@ -217,6 +218,15 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      
+      /* Premium Glassmorphism Effect to keep text readable without ruining the image */
+      background: rgba(255, 255, 255, 0.45);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      padding: 40px 30px;
+      border-radius: 24px;
+      border: 1px solid rgba(255, 255, 255, 0.6);
+      box-shadow: 0 10px 40px rgba(0, 0, 0, 0.05);
     }
 
     .tp-luxury-slider-controls {
@@ -226,11 +236,19 @@
 
   @media (max-width: 767px) {
     /* Mobile (320px - 767px) */
-    height: 100vh;
-    min-height: 700px;
+    height: 90vh;
+    min-height: 600px;
+
+    .tp-luxury-slider-bg {
+      object-position: 70% center; /* More aggressive shift for narrow screens */
+    }
 
     .tp-luxury-slider-container {
-      bottom: 60px;
+      top: 55%; /* Push text slightly lower on mobile so faces/products at the top are visible */
+    }
+
+    .tp-luxury-slider-content {
+      padding: 30px 20px;
     }
 
     .tp-luxury-slider-btn-wrapper {
