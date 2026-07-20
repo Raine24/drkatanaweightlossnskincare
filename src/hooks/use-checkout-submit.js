@@ -240,19 +240,29 @@ const useCheckoutSubmit = () => {
       }
     }
     if (data.payment === 'COD' || data.payment === 'BankTransfer') {
-      saveOrder({
-        ...orderInfo
-      }).then(res => {
-        if(res?.error){
-        }
-        else {
-          localStorage.removeItem("cart_products")
+      fetch('/api/order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(orderInfo),
+      })
+      .then(res => res.json())
+      .then(res => {
+        if (!res.success) {
+          notifyError(res.error || "Failed to process order");
+          setIsCheckoutSubmit(false);
+        } else {
+          localStorage.removeItem("cart_products");
           localStorage.removeItem("couponInfo");
-          setIsCheckoutSubmit(false)
+          localStorage.removeItem("shipping_info");
+          setIsCheckoutSubmit(false);
           notifySuccess("Your Order Confirmed!");
-          router.push(`/order/${res.data?.order?._id}`);
+          router.push(`/order/${res.order?._id}`);
         }
       })
+      .catch(err => {
+        notifyError("Failed to process order");
+        setIsCheckoutSubmit(false);
+      });
     }
   };
 
@@ -282,16 +292,21 @@ const useCheckoutSubmit = () => {
         paymentIntent,
       };
 
-      saveOrder({
-        ...orderData
+      fetch('/api/order', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(orderData),
       })
+      .then(res => res.json())
       .then((result) => {
-          if(result?.error){
-          }
-          else {
+          if (!result.success) {
+            notifyError(result.error || "Failed to process order");
+          } else {
+            localStorage.removeItem("cart_products");
             localStorage.removeItem("couponInfo");
+            localStorage.removeItem("shipping_info");
             notifySuccess("Your Order Confirmed!");
-            router.push(`/order/${result.data?.order?._id}`);
+            router.push(`/order/${result.order?._id}`);
           }
         })
        } 

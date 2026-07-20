@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 
 const ContactArea = () => {
   const [formData, setFormData] = useState({ name: "", phone: "", email: "", message: "" });
@@ -6,11 +6,32 @@ const ContactArea = () => {
 
   const handleChange = (e) => setFormData({ ...formData, [e.target.name]: e.target.value });
 
-  const handleSubmit = (e) => {
+  const [isSending, setIsSending] = useState(false);
+
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    setSubmitted(true);
-    setTimeout(() => setSubmitted(false), 4000);
-    setFormData({ name: "", phone: "", email: "", message: "" });
+    setIsSending(true);
+    
+    try {
+      const response = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(formData),
+      });
+
+      if (response.ok) {
+        setSubmitted(true);
+        setTimeout(() => setSubmitted(false), 4000);
+        setFormData({ name: "", phone: "", email: "", message: "" });
+      } else {
+        alert('Failed to send message. Please try again.');
+      }
+    } catch (error) {
+      console.error('Error sending message:', error);
+      alert('An error occurred. Please try again.');
+    } finally {
+      setIsSending(false);
+    }
   };
 
   return (
@@ -291,8 +312,8 @@ const ContactArea = () => {
                     <textarea name="message" value={formData.message} onChange={handleChange} rows={6} placeholder="Write your message here…" required></textarea>
                   </div>
                 </div>
-                <button type="submit" className="kc-submit-btn">
-                  Send Message &rarr;
+                <button type="submit" className="kc-submit-btn" disabled={isSending}>
+                  {isSending ? 'Sending...' : 'Send Message'}
                 </button>
                 {submitted && (
                   <div className="kc-success">
