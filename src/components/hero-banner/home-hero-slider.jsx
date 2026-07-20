@@ -90,6 +90,8 @@ const HomeHeroSlider = () => {
                       src={item.img} 
                       alt={item.title} 
                       fill
+                      quality={100}
+                      sizes="100vw"
                       priority={index === 0}
                       className="tp-luxury-slider-bg"
                     />
