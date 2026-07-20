@@ -9,7 +9,7 @@ const categories = [
   {
     _id: "cat-003",
     parent: "Weight Loss",
-    img: "/assets/img/categories/weightloss.jpeg",
+    img: "/assets/img/categories/Weightloss.jpeg",
     products: ["prd-007", "prd-008"],
   },
   {
