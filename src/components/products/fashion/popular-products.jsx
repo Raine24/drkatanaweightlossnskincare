@@ -86,7 +86,7 @@ const PopularProducts = () => {
           >
             <div className="tp-category-thumb-2">
               <Link href={`/product-details/${item._id}`}>
-                <Image src={item.img} alt="product-img" width={224} height={260} />
+                <Image unoptimized={true} src={item.img} alt="product-img" width={224} height={260} />
               </Link>
             </div>
             <div className="tp-category-content-2">

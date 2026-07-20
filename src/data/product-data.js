@@ -1,5 +1,206 @@
 const products = [
   {
+    "_id": "prd-yjeatk3",
+    "title": "Anti Pimple Natural Soap",
+    "short_description": "Clear your skin naturally with our Anti Pimple Natural Soap.",
+    "description": "Formulated with powerful natural ingredients, this soap helps to clear pimples, reduce blemishes, and promote a healthy, glowing complexion without harsh chemicals.",
+    "slug": "anti-pimple-natural-soap",
+    "price": 30,
+    "discount": 0,
+    "status": "in-stock",
+    "img": "/assets/img/products/Anti Pimple Natural Soap(30 USD).jpeg",
+    "imageURLs": [
+      {
+        "img": "/assets/img/products/Anti Pimple Natural Soap(30 USD).jpeg"
+      }
+    ],
+    "parent": "Skincare",
+    "children": "Soaps",
+    "tags": [
+      "Skincare",
+      "Soap"
+    ],
+    "brand": {
+      "name": "Dr. Katana"
+    },
+    "reviews": [
+      {
+        "_id": "rev-p9j4xc9",
+        "userId": {
+          "name": "Natalie Russell"
+        },
+        "rating": 4,
+        "comment": "Great product! It arrived quickly and works exactly as described.",
+        "createdAt": "2026-03-12T09:57:46.759Z"
+      },
+      {
+        "_id": "rev-0bk49dv",
+        "userId": {
+          "name": "Skylar Hall"
+        },
+        "rating": 5,
+        "comment": "I was skeptical at first, but this really works. Highly recommend it to anyone on the fence.",
+        "createdAt": "2026-01-26T11:28:37.412Z"
+      },
+      {
+        "_id": "rev-c844hxa",
+        "userId": {
+          "name": "Claire Williams"
+        },
+        "rating": 5,
+        "comment": "I feel so much more confident now! Totally worth the price.",
+        "createdAt": "2026-01-12T05:15:43.561Z"
+      },
+      {
+        "_id": "rev-vdxa82f",
+        "userId": {
+          "name": "Emily Robinson"
+        },
+        "rating": 5,
+        "comment": "Absolutely love this! Saw results so quickly and the quality is unmatched.",
+        "createdAt": "2025-12-25T07:01:43.264Z"
+      }
+    ],
+    "topSellers": true,
+    "featured": true,
+    "sellCount": 25,
+    "createdAt": "2026-07-20T12:58:25.236Z"
+  },
+  {
+    "_id": "prd-yh7awpz",
+    "title": "Natural Package",
+    "short_description": "A comprehensive natural skincare package for daily rejuvenation.",
+    "description": "Embrace the power of nature with our Natural Package. Carefully selected to work in harmony, these products provide essential nourishment for radiant, healthy skin every day.",
+    "slug": "natural-package",
+    "price": 45,
+    "discount": 0,
+    "status": "in-stock",
+    "img": "/assets/img/products/Natural package (45 USD).jpeg",
+    "imageURLs": [
+      {
+        "img": "/assets/img/products/Natural package (45 USD).jpeg"
+      }
+    ],
+    "parent": "Packages",
+    "children": "Skincare Packages",
+    "tags": [
+      "Packages",
+      "Skincare"
+    ],
+    "brand": {
+      "name": "Dr. Katana"
+    },
+    "reviews": [
+      {
+        "_id": "rev-w6t7vy6",
+        "userId": {
+          "name": "Alice Rodriguez"
+        },
+        "rating": 4,
+        "comment": "Results are noticeable after just a few uses. Can't believe I didn't find this sooner.",
+        "createdAt": "2026-05-10T03:52:50.005Z"
+      },
+      {
+        "_id": "rev-t979u55",
+        "userId": {
+          "name": "Elena Bell"
+        },
+        "rating": 5,
+        "comment": "Super happy with the results. Will definitely be buying again when I run out.",
+        "createdAt": "2026-02-03T13:15:43.678Z"
+      },
+      {
+        "_id": "rev-34m0s33",
+        "userId": {
+          "name": "Savannah Wright"
+        },
+        "rating": 4,
+        "comment": "I've been using this for a few weeks now and the difference is night and day.",
+        "createdAt": "2025-03-01T10:51:55.262Z"
+      }
+    ],
+    "topSellers": true,
+    "featured": true,
+    "sellCount": 18,
+    "createdAt": "2026-07-20T12:58:25.236Z"
+  },
+  {
+    "_id": "prd-6mnl9zd",
+    "title": "Skin Lightening Package",
+    "short_description": "Achieve an even, luminous tone with our premium Skin Lightening Package.",
+    "description": "This premium package targets hyperpigmentation and uneven skin tone. With advanced, safe ingredients, it gradually lightens and brightens, revealing your most luminous and flawless complexion.",
+    "slug": "skin-lightening-package",
+    "price": 170,
+    "discount": 0,
+    "status": "in-stock",
+    "img": "/assets/img/products/Skin Lightening Package (170 USD).jpeg",
+    "imageURLs": [
+      {
+        "img": "/assets/img/products/Skin Lightening Package (170 USD).jpeg"
+      }
+    ],
+    "parent": "Packages",
+    "children": "Skincare Packages",
+    "tags": [
+      "Packages",
+      "Lightening"
+    ],
+    "brand": {
+      "name": "Dr. Katana"
+    },
+    "reviews": [
+      {
+        "_id": "rev-m4ok2yy",
+        "userId": {
+          "name": "Genesis Washington"
+        },
+        "rating": 5,
+        "comment": "My friends have been asking me what I've been doing differently. Thank you Dr. Katana!",
+        "createdAt": "2026-06-13T05:01:42.658Z"
+      },
+      {
+        "_id": "rev-bpppnje",
+        "userId": {
+          "name": "Mila Foster"
+        },
+        "rating": 5,
+        "comment": "It's rare to find a product that actually lives up to the hype. This one does.",
+        "createdAt": "2026-05-30T19:48:24.474Z"
+      },
+      {
+        "_id": "rev-hs4gtk6",
+        "userId": {
+          "name": "Leah Scott"
+        },
+        "rating": 5,
+        "comment": "Amazing! My expectations were exceeded. Highly recommended.",
+        "createdAt": "2025-07-09T01:55:55.023Z"
+      },
+      {
+        "_id": "rev-ubdnap9",
+        "userId": {
+          "name": "Brooklyn Lopez"
+        },
+        "rating": 4,
+        "comment": "This is a game changer. I've tried other brands but nothing compares to Dr. Katana.",
+        "createdAt": "2025-06-22T00:21:49.009Z"
+      },
+      {
+        "_id": "rev-08mqp55",
+        "userId": {
+          "name": "Ashley Campbell"
+        },
+        "rating": 5,
+        "comment": "Super happy with the results. Will definitely be buying again when I run out.",
+        "createdAt": "2025-06-04T12:57:20.410Z"
+      }
+    ],
+    "topSellers": true,
+    "featured": true,
+    "sellCount": 12,
+    "createdAt": "2026-07-20T12:58:25.236Z"
+  },
+  {
     "_id": "prd-001",
     "title": "All in One Weight Loss Package",
     "short_description": "Experience ultimate results with the All in One Weight Loss Package, expertly curated for your wellness journey.",
@@ -2079,207 +2280,6 @@ const products = [
     "featured": false,
     "sellCount": 44,
     "createdAt": "2026-02-01T00:00:00.000Z"
-  },
-  {
-    "_id": "prd-yjeatk3",
-    "title": "Anti Pimple Natural Soap",
-    "short_description": "Clear your skin naturally with our Anti Pimple Natural Soap.",
-    "description": "Formulated with powerful natural ingredients, this soap helps to clear pimples, reduce blemishes, and promote a healthy, glowing complexion without harsh chemicals.",
-    "slug": "anti-pimple-natural-soap",
-    "price": 30,
-    "discount": 0,
-    "status": "in-stock",
-    "img": "/assets/img/products/Anti Pimple Natural Soap(30 USD).jpeg",
-    "imageURLs": [
-      {
-        "img": "/assets/img/products/Anti Pimple Natural Soap(30 USD).jpeg"
-      }
-    ],
-    "parent": "Skincare",
-    "children": "Soaps",
-    "tags": [
-      "Skincare",
-      "Soap"
-    ],
-    "brand": {
-      "name": "Dr. Katana"
-    },
-    "reviews": [
-      {
-        "_id": "rev-p9j4xc9",
-        "userId": {
-          "name": "Natalie Russell"
-        },
-        "rating": 4,
-        "comment": "Great product! It arrived quickly and works exactly as described.",
-        "createdAt": "2026-03-12T09:57:46.759Z"
-      },
-      {
-        "_id": "rev-0bk49dv",
-        "userId": {
-          "name": "Skylar Hall"
-        },
-        "rating": 5,
-        "comment": "I was skeptical at first, but this really works. Highly recommend it to anyone on the fence.",
-        "createdAt": "2026-01-26T11:28:37.412Z"
-      },
-      {
-        "_id": "rev-c844hxa",
-        "userId": {
-          "name": "Claire Williams"
-        },
-        "rating": 5,
-        "comment": "I feel so much more confident now! Totally worth the price.",
-        "createdAt": "2026-01-12T05:15:43.561Z"
-      },
-      {
-        "_id": "rev-vdxa82f",
-        "userId": {
-          "name": "Emily Robinson"
-        },
-        "rating": 5,
-        "comment": "Absolutely love this! Saw results so quickly and the quality is unmatched.",
-        "createdAt": "2025-12-25T07:01:43.264Z"
-      }
-    ],
-    "topSellers": true,
-    "featured": true,
-    "sellCount": 25,
-    "createdAt": "2026-07-20T12:58:25.236Z"
-  },
-  {
-    "_id": "prd-yh7awpz",
-    "title": "Natural Package",
-    "short_description": "A comprehensive natural skincare package for daily rejuvenation.",
-    "description": "Embrace the power of nature with our Natural Package. Carefully selected to work in harmony, these products provide essential nourishment for radiant, healthy skin every day.",
-    "slug": "natural-package",
-    "price": 45,
-    "discount": 0,
-    "status": "in-stock",
-    "img": "/assets/img/products/Natural package (45 USD).jpeg",
-    "imageURLs": [
-      {
-        "img": "/assets/img/products/Natural package (45 USD).jpeg"
-      }
-    ],
-    "parent": "Packages",
-    "children": "Skincare Packages",
-    "tags": [
-      "Packages",
-      "Skincare"
-    ],
-    "brand": {
-      "name": "Dr. Katana"
-    },
-    "reviews": [
-      {
-        "_id": "rev-w6t7vy6",
-        "userId": {
-          "name": "Alice Rodriguez"
-        },
-        "rating": 4,
-        "comment": "Results are noticeable after just a few uses. Can't believe I didn't find this sooner.",
-        "createdAt": "2026-05-10T03:52:50.005Z"
-      },
-      {
-        "_id": "rev-t979u55",
-        "userId": {
-          "name": "Elena Bell"
-        },
-        "rating": 5,
-        "comment": "Super happy with the results. Will definitely be buying again when I run out.",
-        "createdAt": "2026-02-03T13:15:43.678Z"
-      },
-      {
-        "_id": "rev-34m0s33",
-        "userId": {
-          "name": "Savannah Wright"
-        },
-        "rating": 4,
-        "comment": "I've been using this for a few weeks now and the difference is night and day.",
-        "createdAt": "2025-03-01T10:51:55.262Z"
-      }
-    ],
-    "topSellers": true,
-    "featured": true,
-    "sellCount": 18,
-    "createdAt": "2026-07-20T12:58:25.236Z"
-  },
-  {
-    "_id": "prd-6mnl9zd",
-    "title": "Skin Lightening Package",
-    "short_description": "Achieve an even, luminous tone with our premium Skin Lightening Package.",
-    "description": "This premium package targets hyperpigmentation and uneven skin tone. With advanced, safe ingredients, it gradually lightens and brightens, revealing your most luminous and flawless complexion.",
-    "slug": "skin-lightening-package",
-    "price": 170,
-    "discount": 0,
-    "status": "in-stock",
-    "img": "/assets/img/products/Skin Lightening Package (170 USD).jpeg",
-    "imageURLs": [
-      {
-        "img": "/assets/img/products/Skin Lightening Package (170 USD).jpeg"
-      }
-    ],
-    "parent": "Packages",
-    "children": "Skincare Packages",
-    "tags": [
-      "Packages",
-      "Lightening"
-    ],
-    "brand": {
-      "name": "Dr. Katana"
-    },
-    "reviews": [
-      {
-        "_id": "rev-m4ok2yy",
-        "userId": {
-          "name": "Genesis Washington"
-        },
-        "rating": 5,
-        "comment": "My friends have been asking me what I've been doing differently. Thank you Dr. Katana!",
-        "createdAt": "2026-06-13T05:01:42.658Z"
-      },
-      {
-        "_id": "rev-bpppnje",
-        "userId": {
-          "name": "Mila Foster"
-        },
-        "rating": 5,
-        "comment": "It's rare to find a product that actually lives up to the hype. This one does.",
-        "createdAt": "2026-05-30T19:48:24.474Z"
-      },
-      {
-        "_id": "rev-hs4gtk6",
-        "userId": {
-          "name": "Leah Scott"
-        },
-        "rating": 5,
-        "comment": "Amazing! My expectations were exceeded. Highly recommended.",
-        "createdAt": "2025-07-09T01:55:55.023Z"
-      },
-      {
-        "_id": "rev-ubdnap9",
-        "userId": {
-          "name": "Brooklyn Lopez"
-        },
-        "rating": 4,
-        "comment": "This is a game changer. I've tried other brands but nothing compares to Dr. Katana.",
-        "createdAt": "2025-06-22T00:21:49.009Z"
-      },
-      {
-        "_id": "rev-08mqp55",
-        "userId": {
-          "name": "Ashley Campbell"
-        },
-        "rating": 5,
-        "comment": "Super happy with the results. Will definitely be buying again when I run out.",
-        "createdAt": "2025-06-04T12:57:20.410Z"
-      }
-    ],
-    "topSellers": true,
-    "featured": true,
-    "sellCount": 12,
-    "createdAt": "2026-07-20T12:58:25.236Z"
   }
 ];
 

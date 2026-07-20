@@ -77,7 +77,7 @@ const JewelryBanner = () => {
           {slider_data.map((item, i) => (
             <div key={i} className="tp-slider-item-4 tp-slider-height-4 p-relative khaki-bg d-flex align-items-center" >
               <div className="tp-slider-thumb-4">
-                <Image src={item.img} alt="slider img" />
+                <Image unoptimized={true} src={item.img} alt="slider img" />
                 <div className="tp-slider-thumb-4-shape">
                   <span className="tp-slider-thumb-4-shape-1"></span>
                   <span className="tp-slider-thumb-4-shape-2"></span>
@@ -96,7 +96,7 @@ const JewelryBanner = () => {
                 <div className="tp-slider-play">
 
                   <button onClick={handleToggle} type="button" className={`tp-slider-play-btn tp-slider-video-move-btn tp-video-toggle-btn ${play?'hide':''}`}>
-                    <Image className="text-shape" src={text_shape} alt="text shape" priority />
+                    <Image unoptimized={true} className="text-shape" src={text_shape} alt="text shape" priority />
                     <span className="play-icon">
                       <Play/>
                     </span>
@@ -142,7 +142,7 @@ const JewelryBanner = () => {
               <div key={i} className="tp-slider-nav-item d-flex align-items-center">
                 <div className="tp-slider-nav-icon">
                   <span>
-                    <Image src={item.icon} alt="icon" />
+                    <Image unoptimized={true} src={item.icon} alt="icon" />
                   </span>
                 </div>
                 <div className="tp-slider-nav-content">

@@ -44,7 +44,7 @@ const ProductBrand = ({setCurrPage,shop_right=false}) => {
           onClick={() => handleBrandRoute(b.name)}
           style={{ cursor: "pointer" }}
         >
-          <Image src={b.logo} alt="brand" width={60} height={50} />
+          <Image unoptimized={true} src={b.logo} alt="brand" width={60} height={50} />
         </a>
       </div>
     ));

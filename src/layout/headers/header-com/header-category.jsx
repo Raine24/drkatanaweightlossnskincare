@@ -60,7 +60,7 @@ const HeaderCategory = ({ isCategoryActive, categoryType = "electronics" }) => {
         >
           {item.img && (
             <span>
-              <Image src={item.img} alt="cate img" width={50} height={50} />
+              <Image unoptimized={true} src={item.img} alt="cate img" width={50} height={50} />
             </span>
           )}
           {item.parent}

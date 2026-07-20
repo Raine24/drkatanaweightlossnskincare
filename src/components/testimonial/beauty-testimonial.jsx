@@ -60,7 +60,7 @@ const BeautyTestimonial = () => {
                   {review_images.map((imgUrl, index) => (
                     <SwiperSlide key={index}>
                       <div style={{ position: 'relative', width: '100%', height: '400px', borderRadius: '10%', overflow: 'hidden', boxShadow: '0px 10px 30px rgba(0, 0, 0, 0.08)' }}>
-                        <Image 
+                        <Image unoptimized={true} 
                           src={imgUrl} 
                           alt={`Customer Review ${index + 1}`} 
                           layout="fill"

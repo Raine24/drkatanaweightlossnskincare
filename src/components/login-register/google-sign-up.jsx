@@ -33,7 +33,7 @@ const GoogleSignUp = () => {
           onClick={renderProps.onClick}
           disabled={renderProps.disabled}
         >
-          <Image src={google_icon} alt="google_icon" />
+          <Image unoptimized={true} src={google_icon} alt="google_icon" />
           Sign in with google
         </a>
       )}

@@ -10,7 +10,7 @@ const BlogDetailsComments = () => {
           <li key={comment.id}>
             <div className="tp-postbox-details-comment-box d-sm-flex align-items-start">
               <div className="tp-postbox-details-comment-thumb">
-                <Image src={comment.user} alt="user img" />
+                <Image unoptimized={true} src={comment.user} alt="user img" />
               </div>
               <div className="tp-postbox-details-comment-content">
                 <div className="tp-postbox-details-comment-top d-flex justify-content-between align-items-start">
@@ -34,7 +34,7 @@ const BlogDetailsComments = () => {
                 <li>
                   <div className="tp-postbox-details-comment-box d-sm-flex align-items-start">
                     <div className="tp-postbox-details-comment-thumb">
-                      <Image src={comment.children.user} alt="user img" />
+                      <Image unoptimized={true} src={comment.children.user} alt="user img" />
                     </div>
                     <div className="tp-postbox-details-comment-content">
                       <div className="tp-postbox-details-comment-top d-flex justify-content-between align-items-start">

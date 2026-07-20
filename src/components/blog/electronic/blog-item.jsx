@@ -8,7 +8,7 @@ const BlogItem = ({blog}) => {
     <div className="tp-blog-item mb-30">
       <div className="tp-blog-thumb p-relative fix">
         <Link href={`/blog-details/${blog.id}`}>
-          <Image src={blog.img} alt="blog img" style={{width:'100%',height:'100%'}} />
+          <Image unoptimized={true} src={blog.img} alt="blog img" style={{width:'100%',height:'100%'}} />
         </Link>
         <div className="tp-blog-meta tp-blog-meta-date">
           <span>{blog.date}</span>

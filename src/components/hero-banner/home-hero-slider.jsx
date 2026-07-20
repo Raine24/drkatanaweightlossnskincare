@@ -82,7 +82,7 @@ const HomeHeroSlider = () => {
               {({ isActive }) => (
                 <>
                   <div className={`tp-luxury-slider-bg-wrapper ${isActive ? 'is-active' : ''}`}>
-                    <Image 
+                    <Image unoptimized={true} 
                       src={item.img} 
                       alt={item.title} 
                       fill

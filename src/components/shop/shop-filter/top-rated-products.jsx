@@ -29,7 +29,7 @@ const TopRatedProducts = () => {
       <div key={item._id} className="tp-shop-widget-product-item d-flex align-items-center">
         <div className="tp-shop-widget-product-thumb">
           <Link href={`/product-details/${item._id}`}>
-            <Image src={item.img} alt="product img" width={70} height={70} />
+            <Image unoptimized={true} src={item.img} alt="product img" width={70} height={70} />
           </Link>
         </div>
         <div className="tp-shop-widget-product-content">

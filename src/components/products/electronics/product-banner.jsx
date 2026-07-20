@@ -79,11 +79,11 @@ const ProductBanner = () => {
                       <div className="tp-product-banner-thumb-wrapper p-relative">
                         <div className="tp-product-banner-thumb-shape">
                           <span className="tp-product-banner-thumb-gradient"></span>
-                          <Image className="tp-offer-shape" src={offer_img} alt="tp-offer-shape" />
+                          <Image unoptimized={true} className="tp-offer-shape" src={offer_img} alt="tp-offer-shape" />
                         </div>
 
                         <div className="tp-product-banner-thumb text-end p-relative z-index-1">
-                          <Image src={item.img} alt="banner-slider img" />
+                          <Image unoptimized={true} src={item.img} alt="banner-slider img" />
                         </div>
                       </div>
                     </div>

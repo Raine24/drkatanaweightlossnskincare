@@ -82,7 +82,7 @@ const ProductGadgetArea = () => {
               <div className="tp-product-gadget-sidebar mb-40">
                 <div className="tp-product-gadget-categories p-relative fix mb-10">
                   <div className="tp-product-gadget-thumb">
-                    <Image src={gadget_girl} alt="gadget_girl img" priority />
+                    <Image unoptimized={true} src={gadget_girl} alt="gadget_girl img" priority />
                   </div>
                   <h3 className="tp-product-gadget-categories-title">Electronics <br /> Gadgets</h3>
 

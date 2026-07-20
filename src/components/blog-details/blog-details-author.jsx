@@ -12,7 +12,7 @@ const BlogDetailsAuthor = () => {
     >
       <div className="tp-postbox-details-author-thumb">
         <a href="#">
-          <Image src={author_img} alt="author_img" />
+          <Image unoptimized={true} src={author_img} alt="author_img" />
         </a>
       </div>
       <div className="tp-postbox-details-author-content">

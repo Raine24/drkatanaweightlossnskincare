@@ -37,7 +37,7 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
             <div className="offcanvas__top mb-70 d-flex justify-content-between align-items-center">
               <div className="offcanvas__logo logo">
                 <Link href="/">
-                  <Image src={logo} alt="logo" />
+                  <Image unoptimized={true} src={logo} alt="logo" />
                 </Link>
               </div>
             </div>
@@ -59,7 +59,7 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
             <div className="offcanvas__contact align-items-center d-none">
               <div className="offcanvas__contact-icon mr-20">
                 <span>
-                  <Image src={contact_img} alt="contact_img" />
+                  <Image unoptimized={true} src={contact_img} alt="contact_img" />
                 </span>
               </div>
               <div className="offcanvas__contact-content">
@@ -86,7 +86,7 @@ const OffCanvas = ({ isOffCanvasOpen, setIsCanvasOpen,categoryType = "electronic
               <div className="offcanvas__select language">
                 <div className="offcanvas__lang d-flex align-items-center justify-content-md-end">
                   <div className="offcanvas__lang-img mr-15">
-                    <Image src={language_img} alt="language-flag" />
+                    <Image unoptimized={true} src={language_img} alt="language-flag" />
                   </div>
                   <div className="offcanvas__lang-wrapper">
                     <span onClick={handleLanguageActive} className="offcanvas__lang-selected-lang tp-lang-toggle" id="tp-offcanvas-lang-toggle">English</span>

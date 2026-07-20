@@ -20,7 +20,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                   <div className="tp-footer-widget-content">
                     <div className="tp-footer-logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" />
+                        <Image unoptimized={true} src={logo} alt="logo" />
                       </Link>
                     </div>
                     <p className="tp-footer-desc">Empowering your natural beauty and wellness journey. Dr. Katana Weight Loss &amp; Skincare offers premium skincare, weight loss solutions, and holistic products curated for real, visible results.</p>
@@ -112,7 +112,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                 <div className="col-md-6">
                   <div className="tp-footer-payment text-md-end">
                     <p>
-                      <Image src={pay} alt="pay" />
+                      <Image unoptimized={true} src={pay} alt="pay" />
                     </p>
                   </div>
                 </div>

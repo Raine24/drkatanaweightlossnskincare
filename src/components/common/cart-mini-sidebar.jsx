@@ -45,7 +45,7 @@ const handleCloseCartMini = () => {
                 <div key={item._id} className="cartmini__widget-item">
                   <div className="cartmini__thumb">
                     <Link href={`/product-details/${item._id}`}>
-                      <Image src={item.img} width={70} height={60} alt="product img" />
+                      <Image unoptimized={true} src={item.img} width={70} height={60} alt="product img" />
                     </Link>
                   </div>
                   <div className="cartmini__content">
@@ -63,7 +63,7 @@ const handleCloseCartMini = () => {
             </div>}
             {/* if no item in cart */}
             {cart_products.length === 0 && <div className="cartmini__empty text-center">
-              <Image src={empty_cart_img} alt="empty-cart-img" />
+              <Image unoptimized={true} src={empty_cart_img} alt="empty-cart-img" />
               <p>Your Cart is empty</p>
               <Link href="/shop" className="tp-btn">Go to Shop</Link>
             </div>}

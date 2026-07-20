@@ -34,7 +34,7 @@ const BlogSidebar = () => {
             <div className="tp-sidebar-about">
               <div className="tp-sidebar-about-thumb mb-25">
                 <a href="#">
-                  <Image src={user} alt="user" />
+                  <Image unoptimized={true} src={user} alt="user" />
                 </a>
               </div>
               <div className="tp-sidebar-about-content">
@@ -44,7 +44,7 @@ const BlogSidebar = () => {
                 <span className="tp-sidebar-about-designation">Photographer & Blogger</span>
                 <p>Lorem ligula eget dolor. Aenean massa. Cum sociis que penatibus magnis dis parturient</p>
                 <div className="tp-sidebar-about-signature">
-                  <Image src={signature} alt="signature" />
+                  <Image unoptimized={true} src={signature} alt="signature" />
                 </div>
               </div>
             </div>
@@ -61,7 +61,7 @@ const BlogSidebar = () => {
               <div key={b.id} className="tp-sidebar-blog-item d-flex align-items-center">
                 <div className="tp-sidebar-blog-thumb">
                   <Link href={`/blog-details/${b.id}`}>
-                    <Image src={b.img} alt="blog img" />
+                    <Image unoptimized={true} src={b.img} alt="blog img" />
                   </Link>
                 </div>
                 <div className="tp-sidebar-blog-content">

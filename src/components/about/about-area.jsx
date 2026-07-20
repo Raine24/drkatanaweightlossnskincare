@@ -447,13 +447,13 @@ const AboutArea = () => {
 
             <div className="ab-hero-imgs ab-animate ab-delay-3">
               <div className="ab-hero-img-wrap short">
-                <Image src="/assets/img/about/product_1.jpeg" alt="Skincare product" fill style={{objectFit:'cover'}} />
+                <Image unoptimized={true} src="/assets/img/about/product_1.jpeg" alt="Skincare product" fill style={{objectFit:'cover'}} />
               </div>
               <div className="ab-hero-img-wrap tall">
-                <Image src="/assets/img/about/dr_katana.jpeg" alt="Dr. Katana" fill style={{objectFit:'cover'}} />
+                <Image unoptimized={true} src="/assets/img/about/dr_katana.jpeg" alt="Dr. Katana" fill style={{objectFit:'cover'}} />
               </div>
               <div className="ab-hero-img-wrap short">
-                <Image src="/assets/img/about/product_2.jpeg" alt="Beauty product" fill style={{objectFit:'cover'}} />
+                <Image unoptimized={true} src="/assets/img/about/product_2.jpeg" alt="Beauty product" fill style={{objectFit:'cover'}} />
               </div>
             </div>
           </div>
@@ -480,10 +480,10 @@ const AboutArea = () => {
               {/* Image Stack */}
               <div className="ab-story-imgs ab-animate">
                 <div className="ab-story-img-main">
-                  <Image src="/assets/img/about/dr_katana.jpeg" alt="Dr. Katana" fill style={{objectFit:'cover'}} />
+                  <Image unoptimized={true} src="/assets/img/about/dr_katana.jpeg" alt="Dr. Katana" fill style={{objectFit:'cover'}} />
                 </div>
                 <div className="ab-story-img-accent">
-                  <Image src="/assets/img/about/before_after.jpeg" alt="Before and after" fill style={{objectFit:'cover'}} />
+                  <Image unoptimized={true} src="/assets/img/about/before_after.jpeg" alt="Before and after" fill style={{objectFit:'cover'}} />
                 </div>
                 <div className="ab-story-badge">
                   <strong>8+</strong> Years of Beauty
@@ -589,13 +589,13 @@ const AboutArea = () => {
               {/* Mosaic */}
               <div className="ab-mosaic ab-animate ab-delay-2">
                 <div className="ab-mosaic-img">
-                  <Image src="/assets/img/about/quality.jpeg" alt="Quality" fill style={{objectFit:'cover'}} />
+                  <Image unoptimized={true} src="/assets/img/about/quality.jpeg" alt="Quality" fill style={{objectFit:'cover'}} />
                 </div>
                 <div className="ab-mosaic-img">
-                  <Image src="/assets/img/about/expertise.jpeg" alt="Expertise" fill style={{objectFit:'cover'}} />
+                  <Image unoptimized={true} src="/assets/img/about/expertise.jpeg" alt="Expertise" fill style={{objectFit:'cover'}} />
                 </div>
                 <div className="ab-mosaic-img span2" style={{height:'200px'}}>
-                  <Image src="/assets/img/about/reviews.jpeg" alt="Reviews" fill style={{objectFit:'cover'}} />
+                  <Image unoptimized={true} src="/assets/img/about/reviews.jpeg" alt="Reviews" fill style={{objectFit:'cover'}} />
                 </div>
               </div>
             </div>

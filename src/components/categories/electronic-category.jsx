@@ -35,7 +35,7 @@ const ElectronicCategory = () => {
         <div className="tp-product-category-item text-center mb-40">
           <div className="tp-product-category-thumb fix">
             <a className='cursor-pointer' onClick={() => handleCategoryRoute(item.parent)}>
-              <Image src={item.img} alt="product-category" width={76} height={98} />
+              <Image unoptimized={true} src={item.img} alt="product-category" width={76} height={98} />
             </a>
           </div>
           <div className="tp-product-category-content">

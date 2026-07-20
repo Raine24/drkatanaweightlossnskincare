@@ -20,7 +20,7 @@ const ErrorPage = () => {
             <div className="col-xl-6 col-lg-8 col-md-10">
               <div className="tp-error-content text-center">
                 <div className="tp-error-thumb">
-                  <Image src={error} alt="error img" />
+                  <Image unoptimized={true} src={error} alt="error img" />
                 </div>
 
                 <h3 className="tp-error-title">Oops! Page not found</h3>

@@ -48,7 +48,7 @@ const SingleOrder = ({ params }) => {
                       <div className="row align-items-end">
                         <div className="col-md-4 col-sm-6">
                           <div className="invoice__left">
-                            <Image src={logo} alt="logo" />
+                            <Image unoptimized={true} src={logo} alt="logo" />
                             <p>2879 Elk Creek Road <br /> Stone Mountain, Georgia </p>
                           </div>
                         </div>

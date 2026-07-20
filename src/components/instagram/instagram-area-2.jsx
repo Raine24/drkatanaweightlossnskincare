@@ -28,7 +28,7 @@ const InstagramAreaTwo = () => {
                   <div className="tp-instagram-banner text-center">
                     <div className="tp-instagram-banner-icon mb-40">
                       <a href={item.link} target="_blank">
-                        <Image
+                        <Image unoptimized={true}
                           src={item.img}
                           alt="instagram img"
                         />
@@ -43,7 +43,7 @@ const InstagramAreaTwo = () => {
               ) : (
                 <div key={item.id} className="col">
                   <div className="tp-instagram-item-2">
-                    <Image src={item.img} alt="user image" style={{width:'100%',height:'100%'}} />
+                    <Image unoptimized={true} src={item.img} alt="user image" style={{width:'100%',height:'100%'}} />
                     <div className="tp-instagram-icon-2">
                       <a href={item.link} target="_blank" className="popup-image">
                         <i className="fa-brands fa-instagram"></i>

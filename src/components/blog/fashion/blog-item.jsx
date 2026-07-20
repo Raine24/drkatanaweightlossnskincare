@@ -9,7 +9,7 @@ const BlogItem = ({ blog }) => {
     <div className="tp-blog-item-2 mb-40">
       <div className="tp-blog-thumb-2 p-relative fix">
         <Link href={`/blog-details/${id}`}>
-          <Image src={img} alt="blog img" />
+          <Image unoptimized={true} src={img} alt="blog img" />
         </Link>
         <div className="tp-blog-meta-date-2">
           <span>{date}</span>

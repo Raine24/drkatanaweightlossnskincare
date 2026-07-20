@@ -10,7 +10,7 @@ import plane from '@assets/img/subscribe/plane.png';
 
 function Shape({ img, num }) {
   return (
-    <Image className={`tp-subscribe-shape-${num}`} src={img} alt="shape" />
+    <Image unoptimized={true} className={`tp-subscribe-shape-${num}`} src={img} alt="shape" />
   );
 }
 
@@ -23,7 +23,7 @@ const CtaArea = () => {
         <Shape img={shape_3} num="3" />
         <Shape img={shape_4} num="4" />
         <div className="tp-subscribe-plane">
-          <Image className="tp-subscribe-plane-shape" src={plane} alt="img" />
+          <Image unoptimized={true} className="tp-subscribe-plane-shape" src={plane} alt="img" />
           <AnimatedLine />
         </div>
       </div>

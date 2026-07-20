@@ -19,7 +19,7 @@ const FooterTwo = () => {
                   <div className="tp-footer-widget footer-col-4-1 mb-50">
                     <div className="tp-footer-logo">
                       <Link href="/">
-                        <Image src={logo} alt="logo" />
+                        <Image unoptimized={true} src={logo} alt="logo" />
                       </Link>
                     </div>
                     <div className="tp-footer-widget-content">
@@ -123,7 +123,7 @@ const FooterTwo = () => {
                   <div className="col-md-6">
                     <div className="tp-footer-payment text-md-end">
                       <p>
-                        <Image src={pay} alt="pay" />
+                        <Image unoptimized={true} src={pay} alt="pay" />
                       </p>
                     </div>
                   </div>

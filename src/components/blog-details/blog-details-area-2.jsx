@@ -28,7 +28,7 @@ const BlogDetailsAreaTwo = ({blog}) => {
             </div>
             <div className="col-xl-12">
               <div className="tp-postbox-details-thumb">
-                <Image src={blog_details_big_img} alt="blog-big-img" />
+                <Image unoptimized={true} src={blog_details_big_img} alt="blog-big-img" />
               </div>
             </div>
           </div>
@@ -58,7 +58,7 @@ const BlogDetailsAreaTwo = ({blog}) => {
                   <p>Lommodo ligula eget dolor. Aenean massa. Cum sociis que penatibus magnis dis parturient montes lorem, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque euro, pretium, sem. Nulla onsequat massa quis enim. donec pede justo fringilla vel aliquet.</p>
 
                   <div className="tp-postbox-details-desc-thumb text-center">
-                    <Image src={blog_details_sm_img} alt="details-sm-img" />
+                    <Image unoptimized={true} src={blog_details_sm_img} alt="details-sm-img" />
                     <span className="tp-postbox-details-desc-thumb-caption">Gucci’s Women’s Cruise Collection 2023 Lookbook Has Arrived</span>
                   </div>
                   <p>“We’re so glad we’ll be working with you to get your new marketing strategy up and running. I have attached the details of your package. Next you’ll get an email from Jen to schedule your kick-off meeting and be assigned your account rep. During your kick-off meeting, we will introduce your project team, let you know what access we need to start.” </p>
@@ -66,8 +66,8 @@ const BlogDetailsAreaTwo = ({blog}) => {
                   <div className="tp-postbox-details-quote">
                     <blockquote>
                       <div className="tp-postbox-details-quote-shape">
-                        <Image className="tp-postbox-details-quote-shape-1" src={shape_line} alt="shape" />
-                        <Image className="tp-postbox-details-quote-shape-2" src={shape_line_2} alt="shape" />
+                        <Image unoptimized={true} className="tp-postbox-details-quote-shape-1" src={shape_line} alt="shape" />
+                        <Image unoptimized={true} className="tp-postbox-details-quote-shape-2" src={shape_line_2} alt="shape" />
                       </div>
                       <p>There is a way out of every box, a solution to every puzzle its just a matter of finding it.</p>
                       <cite>Shahnewaz Sakil</cite>

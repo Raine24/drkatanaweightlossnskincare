@@ -52,7 +52,7 @@ const DetailsBottomInfo = ({sku,category,tag}) => {
         <p>
           Guaranteed safe <br /> & secure checkout
         </p>
-        <Image src={payment_option_img} alt="payment_option_img" />
+        <Image unoptimized={true} src={payment_option_img} alt="payment_option_img" />
       </div>
     </>
   );

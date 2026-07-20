@@ -30,7 +30,7 @@ const ProductItem = ({ product }) => {
     <div className="tp-product-item-4 p-relative mb-40">
       <div className="tp-product-thumb-4 p-relative fix">
         <Link href={`/product-details/${_id}`}>
-          <Image src={img} alt="product img" width={284} height={352} />
+          <Image unoptimized={true} src={img} alt="product img" width={284} height={352} />
         </Link>
         <div className="tp-product-badge">
           {status === 'out-of-stock' && <span className="product-hot">out-stock</span>}

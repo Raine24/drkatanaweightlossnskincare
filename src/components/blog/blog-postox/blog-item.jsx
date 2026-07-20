@@ -33,14 +33,14 @@ const BlogItem = ({ item = {} }) => {
           !item.slider && (
             <div className="tp-postbox-thumb w-img">
               <Link href={`/blog-details/${item.id}`}>
-                <Image src={item.img} alt="blog img" />
+                <Image unoptimized={true} src={item.img} alt="blog img" />
               </Link>
             </div>
           )}
         {item.video && (
           <div className="tp-postbox-thumb tp-postbox-video w-img p-relative">
             <Link href={`/blog-details/${item.id}`}>
-              <Image src={item.img} alt="blog img" />
+              <Image unoptimized={true} src={item.img} alt="blog img" />
             </Link>
             <a
               onClick={() => setIsVideoOpen(true)}
@@ -62,7 +62,7 @@ const BlogItem = ({ item = {} }) => {
           <Swiper {...slider_setting} modules={[Navigation, Autoplay]} className="tp-postbox-thumb tp-postbox-slider swiper-container w-img p-relative">
             {item.slider_images.map((img, i) => (
               <SwiperSlide key={i} className="tp-postbox-slider-item">
-                <Image src={img} alt="slider img" />
+                <Image unoptimized={true} src={img} alt="slider img" />
               </SwiperSlide>
             ))}
             <div className="tp-postbox-nav">

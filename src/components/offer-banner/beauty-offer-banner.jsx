@@ -350,10 +350,10 @@ const BeautyOfferBanner = () => {
             {/* Image Stack */}
             <div className="hpab-img-stack hpab-anim">
               <div className="hpab-img-main">
-                <Image src="/assets/img/about/dr_katana.jpeg" alt="Dr. Katana" fill style={{objectFit:'cover'}} />
+                <Image unoptimized={true} src="/assets/img/about/dr_katana.jpeg" alt="Dr. Katana" fill style={{objectFit:'cover'}} />
               </div>
               <div className="hpab-img-accent">
-                <Image src="/assets/img/about/before_after.jpeg" alt="Before & After" fill style={{objectFit:'cover'}} />
+                <Image unoptimized={true} src="/assets/img/about/before_after.jpeg" alt="Before & After" fill style={{objectFit:'cover'}} />
               </div>
               <div className="hpab-badge">
                 <strong>8+</strong>

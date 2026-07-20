@@ -13,7 +13,7 @@ const OfferCouponItem = ({ coupon, handleCopied, copiedCode, copied }) => {
       <div className="tp-coupon-item-left d-sm-flex align-items-center">
         <div className="tp-coupon-thumb">
           <a href="#">
-            <Image src={coupon.logo} alt="logo" width={120} height={120} />
+            <Image unoptimized={true} src={coupon.logo} alt="logo" width={120} height={120} />
           </a>
         </div>
         <div className="tp-coupon-content">

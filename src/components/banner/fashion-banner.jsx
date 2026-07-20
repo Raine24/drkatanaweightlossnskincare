@@ -57,7 +57,7 @@ const FashionBanner = () => {
             <SwiperSlide key={item.id}>
               <div className="tp-slider-item-2 tp-slider-height-2 p-relative grey-bg-5 d-flex align-items-end">
                 <div className="tp-slider-2-shape">
-                  <Image className="tp-slider-2-shape-1" src={slider_shape} alt="slider_shape" />
+                  <Image unoptimized={true} className="tp-slider-2-shape-1" src={slider_shape} alt="slider_shape" />
                 </div>
                 <div className="container">
                   <div className="row align-items-center">
@@ -73,12 +73,12 @@ const FashionBanner = () => {
                     <div className="col-xl-6 col-lg-6 col-md-6">
                       <div className="tp-slider-thumb-2-wrapper p-relative">
                         <div className="tp-slider-thumb-2-shape">
-                          <Image className="tp-slider-thumb-2-shape-1" src={thumb_shape_1} alt="shape" />
-                          <Image className="tp-slider-thumb-2-shape-2" src={thumb_shape_2} alt="shape" />
+                          <Image unoptimized={true} className="tp-slider-thumb-2-shape-1" src={thumb_shape_1} alt="shape" />
+                          <Image unoptimized={true} className="tp-slider-thumb-2-shape-2" src={thumb_shape_2} alt="shape" />
                         </div>
                         <div className="tp-slider-thumb-2 text-end">
                           <span className="tp-slider-thumb-2-gradient"></span>
-                          <Image src={item.img} alt="slider img" priority />
+                          <Image unoptimized={true} src={item.img} alt="slider img" priority />
                         </div>
                       </div>
                     </div>

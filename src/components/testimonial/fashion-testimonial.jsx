@@ -49,7 +49,7 @@ const FashionTestimonial = () => {
                           <div className="tp-testimonial-user-wrapper d-flex align-items-center justify-content-center">
                             <div className="tp-testimonial-user d-flex align-items-center">
                               <div className="tp-testimonial-avater mr-10">
-                                <Image src={item.user} alt="user img" />
+                                <Image unoptimized={true} src={item.user} alt="user img" />
                               </div>
                               <div className="tp-testimonial-user-info tp-testimonial-user-translate">
                                 <h3 className="tp-testimonial-user-title">{item.name}</h3>
