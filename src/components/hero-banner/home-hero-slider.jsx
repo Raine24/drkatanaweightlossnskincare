@@ -69,6 +69,7 @@ const HomeHeroSlider = () => {
           loop={true}
           effect="fade"
           fadeEffect={{ crossFade: true }}
+          autoHeight={true}
           autoplay={{
             delay: 6000,
             disableOnInteraction: false,
@@ -94,6 +95,7 @@ const HomeHeroSlider = () => {
                       priority={index === 0}
                       className="tp-luxury-slider-bg"
                     />
+                    <div className="tp-luxury-slider-overlay"></div>
                   </div>
 
                   <div className="tp-luxury-slider-container container">

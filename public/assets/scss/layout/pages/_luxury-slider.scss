@@ -37,6 +37,14 @@
     }
   }
 
+  .tp-luxury-slider-overlay {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.1); /* 10% overlay */
+    z-index: 1;
+    pointer-events: none;
+  }
+
   .tp-luxury-slider-bg {
     width: 100%;
     height: 100%;
@@ -167,6 +175,9 @@
   
   @media (max-width: 991px) {
     /* Tablet Portrait (768px - 991px) - Switch to Stacked Layout */
+    height: auto;
+    min-height: auto;
+    
     .tp-luxury-slider-item {
       min-height: auto; /* Remove forced height */
       flex-direction: column;
