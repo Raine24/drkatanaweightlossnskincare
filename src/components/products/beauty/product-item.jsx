@@ -27,7 +27,7 @@ const ProductItem = ({ product, prdCenter = false,primary_style=false }) => {
 
   return (
     <div
-      className={`tp-product-item-3 mb-50 ${primary_style?"tp-product-style-primary":""} ${prdCenter ? "text-center" : ""}`}
+      className={`tp-product-item-3 mb-50 h-100 d-flex flex-column ${primary_style?"tp-product-style-primary":""} ${prdCenter ? "text-center" : ""}`}
     >
       <div className="tp-product-thumb-3 mb-15 fix p-relative z-index-1">
         <Link href={`/product-details/${_id}`}>
@@ -97,14 +97,14 @@ const ProductItem = ({ product, prdCenter = false,primary_style=false }) => {
           )}
         </div>
       </div>
-      <div className="tp-product-content-3">
+      <div className="tp-product-content-3 d-flex flex-column flex-grow-1">
         <div className="tp-product-tag-3">
           <span>{tags[1]}</span>
         </div>
         <h3 className="tp-product-title-3">
           <Link href={`/product-details/${_id}`}>{title}</Link>
         </h3>
-        <div className="tp-product-price-wrapper-3">
+        <div className="tp-product-price-wrapper-3 mt-auto">
           <span className="tp-product-price-3">${price.toFixed(2)}</span>
         </div>
       </div>
