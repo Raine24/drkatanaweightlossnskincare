@@ -97,14 +97,14 @@ const ProductItem = ({ product, prdCenter = false,primary_style=false }) => {
           )}
         </div>
       </div>
-      <div className="tp-product-content-3 d-flex flex-column flex-grow-1">
+      <div className="tp-product-content-3 flex-grow-1">
         <div className="tp-product-tag-3">
           <span>{tags[1]}</span>
         </div>
         <h3 className="tp-product-title-3">
           <Link href={`/product-details/${_id}`}>{title}</Link>
         </h3>
-        <div className="tp-product-price-wrapper-3 mt-auto">
+        <div className="tp-product-price-wrapper-3">
           <span className="tp-product-price-3">${price.toFixed(2)}</span>
         </div>
       </div>
