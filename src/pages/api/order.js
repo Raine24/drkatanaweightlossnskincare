@@ -67,7 +67,7 @@ export default async function handler(req, res) {
     `;
 
     const data = await resend.emails.send({
-      from: 'Acme <onboarding@resend.dev>',
+      from: 'Dr. Katana <orders@drkatanaweightlossnskincare.com>',
       to: 'katanaritah256@gmail.com',
       subject: `New Order from ${name} - $${totalAmount}`,
       html: emailHtml,
