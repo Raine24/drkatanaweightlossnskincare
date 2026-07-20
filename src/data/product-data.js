@@ -14,8 +14,6 @@ const products = [
       "Package",
       "Lightening"
     ],
-    "category": "Packages",
-    "parentCategory": "Beauty",
     "img": "/assets/img/products/Medium lightening package (65 USD).jpeg",
     "imageURLs": [
       {
@@ -60,7 +58,12 @@ const products = [
         "value": "Lightening & Brightening"
       }
     ],
-    "createdAt": "2026-07-20T13:37:37.833Z"
+    "createdAt": "2026-07-20T13:37:37.833Z",
+    "parent": "Packages",
+    "children": "Lightening",
+    "brand": {
+      "name": "Dr. Katana"
+    }
   },
   {
     "id": 2,
@@ -77,8 +80,6 @@ const products = [
       "Soap",
       "Cleanser"
     ],
-    "category": "Beauty",
-    "parentCategory": "Beauty",
     "img": "/assets/img/products/Molato soap (30 USD).jpeg",
     "imageURLs": [
       {
@@ -123,7 +124,12 @@ const products = [
         "value": "Bar Soap"
       }
     ],
-    "createdAt": "2026-07-20T13:37:37.874Z"
+    "createdAt": "2026-07-20T13:37:37.874Z",
+    "parent": "Beauty Products",
+    "children": "Soaps",
+    "brand": {
+      "name": "Dr. Katana"
+    }
   },
   {
     "_id": "prd-yjeatk3",
