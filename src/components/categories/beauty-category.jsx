@@ -50,7 +50,7 @@ const BeautyCategory = () => {
           {/* Photo background */}
           <div
             className="tp-katana-cat-bg"
-            style={{ backgroundImage: `url('${item.img}')` }}
+            style={{ backgroundImage: `url('${encodeURI(item.img)}')` }}
           />
 
           {/* Light top scrim so image is visible */}
@@ -104,7 +104,7 @@ const BeautyCategory = () => {
         /* ── Background photo ─────────────────────────────────── */
         .tp-katana-cat-bg {
           position: absolute;
-          inset: 0;
+          top: 0; left: 0; width: 100%; height: 100%;
           background-size: cover;
           background-position: center;
           transition: transform 0.55s cubic-bezier(.23,1,.32,1);
@@ -119,7 +119,7 @@ const BeautyCategory = () => {
          */
         .tp-katana-cat-scrim {
           position: absolute;
-          inset: 0;
+          top: 0; left: 0; width: 100%; height: 100%;
           background: rgba(0, 0, 0, 0.28);
           transition: background 0.35s;
         }
@@ -134,7 +134,7 @@ const BeautyCategory = () => {
          */
         .tp-katana-cat-grad {
           position: absolute;
-          inset: 0;
+          top: 0; left: 0; width: 100%; height: 100%;
           background: linear-gradient(
             to top,
             rgba(8, 2, 4, 0.97)   0%,
