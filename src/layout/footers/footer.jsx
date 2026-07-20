@@ -104,8 +104,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <div className="tp-footer-copyright">
-                    <p>© {new Date().getFullYear()} All Rights Reserved  |  Next js Template by
-                      <Link href="/">{" "}❤</Link>.
+                    <p>© {new Date().getFullYear()} All Rights Reserved  |  Dr Katana Weightloss n Skincare
                     </p>
                   </div>
                 </div>
