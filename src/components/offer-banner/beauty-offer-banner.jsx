@@ -369,7 +369,7 @@ const BeautyOfferBanner = () => {
                 &amp; Weight Loss
               </h2>
               <p className="hpab-story-body hpab-anim hpab-d2">
-                Dr. Katana Beauty Centre &amp; Weight Loss is a leading beauty store offering a curated range of women's beauty products, wellness solutions, and good luck miracle products. Our team of experts is dedicated to providing high-quality products that deliver real, visible results.
+                Dr. Katana Beauty Centre &amp; Weight Loss is a leading beauty store offering a curated range of women&apos;s beauty products, wellness solutions, and good luck miracle products. Our team of experts is dedicated to providing high-quality products that deliver real, visible results.
                 <br /><br />
                 Our mission is to help every customer look and feel their best with our carefully selected and well-manufactured herbal products — from skincare and weight loss to sexual enhancers and beyond.
               </p>
@@ -381,7 +381,7 @@ const BeautyOfferBanner = () => {
               </div>
 
               <div className="hpab-quote hpab-anim hpab-d3">
-                <p>"Indulge in superior skincare and cosmetics designed to enhance your natural beauty through the perfect balance of science and nature."</p>
+                <p>&quot;Indulge in superior skincare and cosmetics designed to enhance your natural beauty through the perfect balance of science and nature.&quot;</p>
                 <div className="hpab-quote-author">
                   <div className="hpab-quote-avatar">👩</div>
                   <div>

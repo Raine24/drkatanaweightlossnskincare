@@ -1,4 +1,4 @@
-﻿import React, { useState } from "react";
+import React, { useState } from "react";
 
 const ContactArea = () => {
   const [formData, setFormData] = useState({ name: "", phone: "", email: "", message: "" });
@@ -296,7 +296,7 @@ const ContactArea = () => {
                 </button>
                 {submitted && (
                   <div className="kc-success">
-                    âœ… Thank you! Your message has been received. We'll get back to you shortly.
+                    ✅ Thank you! Your message has been received. We&apos;ll get back to you shortly.
                   </div>
                 )}
               </form>

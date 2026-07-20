@@ -22,10 +22,10 @@ const DisclaimerPage = () => {
                 <p className="mb-20">The information provided on our website, social media pages, product packaging, and through consultations is for educational and informational purposes only. It is not intended to substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified healthcare provider with any questions you may have regarding a medical condition.</p>
 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>2. Individual Results May Vary</h4>
-                <p className="mb-20">Every individual's body is unique. Results from our weight loss packages, skincare formulations, and other wellness products will vary from person to person depending on factors such as genetics, age, gender, lifestyle, diet, and consistency of use. We do not guarantee specific results.</p>
+                <p className="mb-20">Every individual&apos;s body is unique. Results from our weight loss packages, skincare formulations, and other wellness products will vary from person to person depending on factors such as genetics, age, gender, lifestyle, diet, and consistency of use. We do not guarantee specific results.</p>
 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>3. Product Ingredients and Allergies</h4>
-                <p className="mb-20">While we take pride in offering high-quality products, it is the buyer's responsibility to check the ingredients of any skincare or wellness product for potential allergens. If you experience any adverse reactions, skin irritation, or discomfort, discontinue use immediately and consult a doctor.</p>
+                <p className="mb-20">While we take pride in offering high-quality products, it is the buyer&apos;s responsibility to check the ingredients of any skincare or wellness product for potential allergens. If you experience any adverse reactions, skin irritation, or discomfort, discontinue use immediately and consult a doctor.</p>
 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>4. FDA/NDA Registration</h4>
                 <p className="mb-20">Statements regarding dietary supplements and holistic treatments have not necessarily been evaluated by the National Drug Authority (NDA) of Uganda or the FDA. These products are not intended to diagnose, treat, cure, or prevent any disease.</p>

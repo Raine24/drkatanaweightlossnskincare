@@ -515,7 +515,7 @@ const AboutArea = () => {
                 </div>
 
                 <div className="ab-quote">
-                  <p>"Indulge in superior skincare and cosmetics designed to enhance your natural beauty through the perfect balance of science and nature."</p>
+                  <p>&quot;Indulge in superior skincare and cosmetics designed to enhance your natural beauty through the perfect balance of science and nature.&quot;</p>
                   <div className="ab-quote-author">
                     <div className="ab-quote-avatar">👩</div>
                     <div>

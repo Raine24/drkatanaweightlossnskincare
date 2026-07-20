@@ -28,7 +28,7 @@ const PrivacyPage = () => {
                 <p className="mb-20">We implement a variety of security measures to maintain the safety of your personal information when you place an order or enter, submit, or access your personal information. We do not sell, trade, or otherwise transfer to outside parties your Personally Identifiable Information unless we provide users with advance notice, except for trusted third parties who assist us in operating our website or delivering your orders.</p>
 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>4. Cookies</h4>
-                <p className="mb-20">Like any other website, we use "cookies". These cookies are used to store information including visitors' preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users' experience by customizing our web page content based on visitors' browser type and/or other information.</p>
+                <p className="mb-20">Like any other website, we use &quot;cookies&quot;. These cookies are used to store information including visitors&apos; preferences, and the pages on the website that the visitor accessed or visited. The information is used to optimize the users&apos; experience by customizing our web page content based on visitors&apos; browser type and/or other information.</p>
 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>5. Contact Us</h4>
                 <p className="mb-20">If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us at Katanaritah256@gmail.com or visit us at Rm F9, Annet Plaza, Opp. Old Taxi Park, Kampala, Uganda.</p>
