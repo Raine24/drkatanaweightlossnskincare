@@ -1,5 +1,131 @@
 const products = [
   {
+    "id": 1,
+    "sku": "KATANA-MED-LIGHT-PKG",
+    "title": "Medium lightening package",
+    "short_description": "Transform your skin with the Medium lightening package, designed for a radiant and even complexion.",
+    "description": "The Medium lightening package is a carefully curated regimen from Dr. Katana Beauty Centre to help you achieve a beautifully even and radiant skin tone. This package combines powerful, natural brightening agents that work in synergy to reduce dark spots, hyperpigmentation, and uneven textures. Suitable for daily use, this package provides a holistic approach to skin lightening, ensuring your skin remains deeply hydrated, protected, and incredibly soft while it gradually reveals a brighter, more luminous glow.",
+    "slug": "medium-lightening-package",
+    "price": 65,
+    "discount": 0,
+    "tags": [
+      "Skincare",
+      "Beauty",
+      "Package",
+      "Lightening"
+    ],
+    "category": "Packages",
+    "parentCategory": "Beauty",
+    "img": "/assets/img/products/Medium lightening package (65 USD).jpeg",
+    "imageURLs": [
+      {
+        "color": {
+          "name": "Default",
+          "clrCode": "#F5F5F5"
+        },
+        "img": "/assets/img/products/Medium lightening package (65 USD).jpeg"
+      }
+    ],
+    "status": "in-stock",
+    "reviews": [
+      {
+        "user": "Monica R.",
+        "name": "Monica R.",
+        "email": "monica.r@example.com",
+        "rating": 5,
+        "review": "I've been using this package for a few weeks and the results are amazing. My skin tone is visibly more even and radiant!",
+        "date": "2026-06-15"
+      },
+      {
+        "user": "Sarah K.",
+        "name": "Sarah K.",
+        "email": "sarah.k@example.com",
+        "rating": 5,
+        "review": "This package is a game-changer. My dark spots have faded significantly and my skin feels so soft.",
+        "date": "2026-07-02"
+      }
+    ],
+    "sellCount": 0,
+    "additionalInformation": [
+      {
+        "key": "Brand",
+        "value": "Dr. Katana"
+      },
+      {
+        "key": "Skin Type",
+        "value": "All Skin Types"
+      },
+      {
+        "key": "Purpose",
+        "value": "Lightening & Brightening"
+      }
+    ],
+    "createdAt": "2026-07-20T13:37:37.833Z"
+  },
+  {
+    "id": 2,
+    "sku": "KATANA-MOLATO-SOAP",
+    "title": "Molato soap",
+    "short_description": "Experience a deep, clarifying cleanse and a natural glow with our signature Molato soap.",
+    "description": "Our authentic Molato soap is an essential addition to your daily skincare routine. Expertly formulated with a blend of natural botanical extracts and nourishing oils, this soap gently but effectively cleanses away impurities, excess oil, and dead skin cells. It works to brighten your overall complexion, leaving your skin feeling refreshed, exceptionally smooth, and visibly radiant. Perfect for face and body, it helps promote a clear, flawless skin tone with regular use.",
+    "slug": "molato-soap",
+    "price": 30,
+    "discount": 0,
+    "tags": [
+      "Skincare",
+      "Beauty",
+      "Soap",
+      "Cleanser"
+    ],
+    "category": "Beauty",
+    "parentCategory": "Beauty",
+    "img": "/assets/img/products/Molato soap (30 USD).jpeg",
+    "imageURLs": [
+      {
+        "color": {
+          "name": "Default",
+          "clrCode": "#F5F5F5"
+        },
+        "img": "/assets/img/products/Molato soap (30 USD).jpeg"
+      }
+    ],
+    "status": "in-stock",
+    "reviews": [
+      {
+        "user": "Jessica T.",
+        "name": "Jessica T.",
+        "email": "jessica.t@example.com",
+        "rating": 5,
+        "review": "This soap lathers beautifully and makes my skin feel so clean and bright without drying it out.",
+        "date": "2026-05-20"
+      },
+      {
+        "user": "Chloe M.",
+        "name": "Chloe M.",
+        "email": "chloe.m@example.com",
+        "rating": 4,
+        "review": "Great soap! It smells wonderful and I've noticed a real glow since I started using it daily.",
+        "date": "2026-06-28"
+      }
+    ],
+    "sellCount": 0,
+    "additionalInformation": [
+      {
+        "key": "Brand",
+        "value": "Dr. Katana"
+      },
+      {
+        "key": "Skin Type",
+        "value": "All Skin Types"
+      },
+      {
+        "key": "Form",
+        "value": "Bar Soap"
+      }
+    ],
+    "createdAt": "2026-07-20T13:37:37.874Z"
+  },
+  {
     "_id": "prd-yjeatk3",
     "title": "Anti Pimple Natural Soap",
     "short_description": "Clear your skin naturally with our Anti Pimple Natural Soap.",
