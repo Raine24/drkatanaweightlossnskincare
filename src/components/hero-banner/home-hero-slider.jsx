@@ -90,27 +90,22 @@ const HomeHeroSlider = () => {
                       src={item.img} 
                       alt={item.title} 
                       fill
-                      style={{objectFit: 'cover'}}
+                      style={{objectFit: 'cover', objectPosition: 'center 20%'}}
                       priority={index === 0}
                       className="tp-luxury-slider-bg"
                     />
-                    <div className="tp-luxury-slider-overlay"></div>
                   </div>
 
-                  <div className="container tp-luxury-slider-container">
-                    <div className="row">
-                      <div className="col-12 col-md-10 col-lg-7">
-                        <div className={`tp-luxury-slider-content ${isActive ? 'is-active' : ''}`}>
-                          <span className="tp-luxury-slider-pre-title">{item.pre_title}</span>
-                          <h1 className="tp-luxury-slider-title">{item.title}</h1>
-                          <p className="tp-luxury-slider-subtitle">{item.subtitle}</p>
-                          
-                          <div className="tp-luxury-slider-btn">
-                            <Link href={item.link} className="tp-luxury-btn">
-                              {item.btn_text}
-                            </Link>
-                          </div>
-                        </div>
+                  <div className="tp-luxury-slider-container container">
+                    <div className={`tp-luxury-slider-content ${isActive ? 'is-active' : ''}`}>
+                      <span className="tp-luxury-slider-pre-title">{item.pre_title}</span>
+                      <h1 className="tp-luxury-slider-title">{item.title}</h1>
+                      <p className="tp-luxury-slider-subtitle">{item.subtitle}</p>
+                      
+                      <div className="tp-luxury-slider-btn-wrapper">
+                        <Link href={item.link} className="tp-luxury-btn">
+                          {item.btn_text}
+                        </Link>
                       </div>
                     </div>
                   </div>
