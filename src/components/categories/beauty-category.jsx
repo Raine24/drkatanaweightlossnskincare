@@ -64,9 +64,7 @@ const BeautyCategory = () => {
 
           {/* Content */}
           <div className="tp-katana-cat-body">
-            <span className="tp-katana-cat-count">
-              {item.products.length}&nbsp;Products
-            </span>
+
             <h3 className="tp-katana-cat-title">{item.parent}</h3>
             <div className="tp-katana-cat-cta">
               <span>Shop Now</span>

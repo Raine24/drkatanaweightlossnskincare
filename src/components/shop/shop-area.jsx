@@ -31,7 +31,7 @@ const ShopArea = ({ all_products, products, otherProps }) => {
       <section className="tp-shop-area pb-120">
         <div className="container">
           <div className="row">
-            <div className="col-xl-3 col-lg-4">
+            <div className="col-xl-3 col-lg-4 d-none d-lg-block">
               <div className="tp-shop-sidebar mr-10">
                 {/* filter */}
                 <PriceFilter
