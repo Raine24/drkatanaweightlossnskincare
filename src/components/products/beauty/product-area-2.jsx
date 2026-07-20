@@ -59,11 +59,11 @@ const ProductAreaTwo = () => {
         .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt));
     } else if (activeTab === "Beauty") {
       product_items = products.data.filter(
-        (p) => p.category.name === "Discover Skincare"
+        (p) => p.parent === "Beauty Products"
       );
     } else if (activeTab === "Cosmetics") {
       product_items = products.data.filter(
-        (p) => p.category.name === "Awesome Lip Care"
+        (p) => p.parent === "Packages" || p.parent === "Beauty Products"
       );
     } else {
       product_items = products.data;
