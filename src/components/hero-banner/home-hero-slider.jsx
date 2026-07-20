@@ -4,11 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import Image from "next/image";
 import Link from "next/link";
 // internal
-import slider_img_1 from "@assets/img/slider/Gemini_Generated_Image_dpqfrddpqfrddpqf.png";
-import slider_img_2 from "@assets/img/slider/Gemini_Generated_Image_ffummcffummcffum.png";
-import slider_img_3 from "@assets/img/slider/Gemini_Generated_Image_kgzevakgzevakgze.png";
-import slider_img_4 from "@assets/img/slider/Gemini_Generated_Image_nso0ipnso0ipnso0.png";
-import slider_img_5 from "@assets/img/slider/Gemini_Generated_Image_q766atq766atq766.png";
+// Removed local imports for external high-quality hosting
 
 // slider data
 const sliderData = [
@@ -17,7 +13,7 @@ const sliderData = [
     pre_title: "THE NEW STANDARD",
     title: "Radiant, Glass Skin",
     subtitle: "Experience the ultimate hydration and natural glow with our signature formulations.",
-    img: slider_img_1,
+    img: "https://i.ibb.co/vxhv95Dx/Gemini-Generated-Image-dpqfrddpqfrddpqf.png",
     link: "/shop",
     btn_text: "Shop Now"
   },
@@ -26,7 +22,7 @@ const sliderData = [
     pre_title: "CURATED CARE",
     title: "Your Daily Ritual",
     subtitle: "Transform your skincare routine into a moment of pure luxury and self-care.",
-    img: slider_img_2,
+    img: "https://i.ibb.co/KjB719Hb/Gemini-Generated-Image-ffummcffummcffum.png",
     link: "/shop",
     btn_text: "Discover Collection"
   },
@@ -35,7 +31,7 @@ const sliderData = [
     pre_title: "TARGETED RESULTS",
     title: "Science Meets Nature",
     subtitle: "Potent, active ingredients designed to restore, protect, and illuminate.",
-    img: slider_img_3,
+    img: "https://i.ibb.co/v43vC914/Gemini-Generated-Image-kgzevakgzevakgze.png",
     link: "/shop",
     btn_text: "Learn More"
   },
@@ -44,7 +40,7 @@ const sliderData = [
     pre_title: "SPIRITUAL WELLNESS",
     title: "Attract Positivity",
     subtitle: "Discover our exclusive range of spiritual healing and good luck essentials.",
-    img: slider_img_4,
+    img: "https://i.ibb.co/mVKkzTwV/Gemini-Generated-Image-nso0ipnso0ipnso0.png",
     link: "/shop?category=goodluck",
     btn_text: "Explore Miracles"
   },
@@ -53,7 +49,7 @@ const sliderData = [
     pre_title: "EXCLUSIVE PACKAGES",
     title: "The Bridal Glow",
     subtitle: "Carefully curated sets to prepare your skin for your most important moments.",
-    img: slider_img_5,
+    img: "https://i.ibb.co/KxDZky82/Gemini-Generated-Image-q766atq766atq766.png",
     link: "/shop?category=packages",
     btn_text: "View Packages"
   },
