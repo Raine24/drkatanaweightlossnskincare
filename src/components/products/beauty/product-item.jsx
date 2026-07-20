@@ -2,14 +2,18 @@ import React from "react";
 import Image from "next/image";
 import { useDispatch, useSelector } from "react-redux";
 import Link from "next/link";
-// internal
 import { Cart, QuickView, Wishlist } from "@/svg";
+import { Rating } from "react-simple-star-rating";
 import { handleProductModal } from "@/redux/features/productModalSlice";
 import { add_cart_product } from "@/redux/features/cartSlice";
 import { add_to_wishlist } from "@/redux/features/wishlist-slice";
 
 const ProductItem = ({ product, prdCenter = false,primary_style=false }) => {
-  const { _id, img, title, discount, price, tags,status } = product || {};
+  const { _id, img, title, discount, price, tags, status, reviews } = product || {};
+  const ratingVal =
+    reviews && reviews.length > 0
+      ? reviews.reduce((acc, review) => acc + review.rating, 0) / reviews.length
+      : 0;
   const { cart_products } = useSelector((state) => state.cart);
   const { wishlist } = useSelector((state) => state.wishlist);
   const isAddedToCart = cart_products.some((prd) => prd._id === _id);
@@ -104,6 +108,9 @@ const ProductItem = ({ product, prdCenter = false,primary_style=false }) => {
         <h3 className="tp-product-title-3">
           <Link href={`/product-details/${_id}`}>{title}</Link>
         </h3>
+        <div className="tp-product-rating-icon tp-product-rating-icon-2 mb-10">
+          <Rating allowFraction size={16} initialValue={ratingVal} readonly={true} />
+        </div>
         <div className="tp-product-price-wrapper-3">
           <span className="tp-product-price-3">${price.toFixed(2)}</span>
         </div>
