@@ -1,0 +1,19 @@
+@forward '../css/font-awesome-pro.css';
+@forward '../css/flaticon_shofy.css';
+@forward '../css/animate.css';
+@forward 'theme';
+@forward 'components';
+@forward 'layout';
+
+/* --- Global Logo Sizing --- */
+.logo img,
+.tp-footer-logo img {
+  max-width: 180px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .logo img,
+  .tp-footer-logo img {
+    max-width: 140px;
+  }
+}
