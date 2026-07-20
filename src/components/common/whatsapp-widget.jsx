@@ -5,6 +5,7 @@ const WhatsappWidget = () => {
   return (
     <div className="whatsapp-widget-container">
       <Link href="https://wa.me/256782682878" target="_blank" rel="noopener noreferrer" className="whatsapp-widget-btn">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
         <img 
           src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" 
           alt="WhatsApp Chat" 

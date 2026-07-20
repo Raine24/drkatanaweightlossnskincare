@@ -64,7 +64,7 @@ const TrendingSpecialPrd = () => {
             <div className="col-xl-5 col-md-6">
               <div className="tp-special-slider-thumb">
                 <div className="tp-special-thumb">
-                  <img src={special_thumb} alt="Katana Skincare Before and After" className="w-100" style={{ borderRadius: '16px' }} />
+                  <Image src={special_thumb} alt="Katana Skincare Before and After" width={600} height={600} style={{ width: '100%', height: 'auto', borderRadius: '16px' }} />
                   <div className="tp-special-hotspot-item tp-special-hotspot-1">
                     <Link href="/shop?category=beauty-products">
                       <span className="tp-hotspot tp-pulse-border ">
