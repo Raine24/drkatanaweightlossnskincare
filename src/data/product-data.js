@@ -1,6 +1,5 @@
 const products = [
   {
-    "id": 1,
     "sku": "KATANA-MED-LIGHT-PKG",
     "title": "Medium lightening package",
     "short_description": "Transform your skin with the Medium lightening package, designed for a radiant and even complexion.",
@@ -63,10 +62,10 @@ const products = [
     "children": "Lightening",
     "brand": {
       "name": "Dr. Katana"
-    }
+    },
+    "_id": "prd-hero-001"
   },
   {
-    "id": 2,
     "sku": "KATANA-MOLATO-SOAP",
     "title": "Molato soap",
     "short_description": "Experience a deep, clarifying cleanse and a natural glow with our signature Molato soap.",
@@ -129,7 +128,8 @@ const products = [
     "children": "Soaps",
     "brand": {
       "name": "Dr. Katana"
-    }
+    },
+    "_id": "prd-hero-002"
   },
   {
     "_id": "prd-yjeatk3",
