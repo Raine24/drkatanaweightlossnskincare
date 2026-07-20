@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import SEO from "@/components/seo";
 import HeaderTwo from "@/layout/headers/header-2";
 import Wrapper from "@/layout/wrapper";
@@ -19,3 +19,4 @@ const BlogGridPage = () => {
 };
 
 export default BlogGridPage;
+

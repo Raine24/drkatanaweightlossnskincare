@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 // internal
@@ -23,7 +23,7 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
                         <Image src={logo} alt="logo" />
                       </Link>
                     </div>
-                    <p className="tp-footer-desc">Empowering your natural beauty and wellness journey. Dr. Katana Beauty Centre offers premium skincare, weight loss solutions, and holistic products curated for real, visible results.</p>
+                    <p className="tp-footer-desc">Empowering your natural beauty and wellness journey. Dr. Katana Weight Loss &amp; Skincare offers premium skincare, weight loss solutions, and holistic products curated for real, visible results.</p>
                     <div className="tp-footer-social">
                       {social_data.map(s => <a href={s.link} key={s.id} target="_blank">
                         <i className={s.icon}></i>
@@ -104,8 +104,8 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
               <div className="row align-items-center">
                 <div className="col-md-6">
                   <div className="tp-footer-copyright">
-                    <p>© {new Date().getFullYear()} All Rights Reserved  |  Next js Template by
-                      <Link href="/">{" "}❤</Link>.
+                    <p>Â© {new Date().getFullYear()} All Rights Reserved  |  Next js Template by
+                      <Link href="/">{" "}â¤</Link>.
                     </p>
                   </div>
                 </div>
@@ -126,3 +126,4 @@ const Footer = ({ style_2 = false, style_3 = false,primary_style=false }) => {
 };
 
 export default Footer;
+

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+﻿import React, { useEffect } from "react";
 import Cookies from "js-cookie";
 import { useRouter } from "next/router";
 // internal
@@ -42,3 +42,4 @@ const ProfilePage = () => {
 };
 
 export default ProfilePage;
+

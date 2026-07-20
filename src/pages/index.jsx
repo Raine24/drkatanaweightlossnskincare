@@ -1,4 +1,4 @@
-import SEO from "@/components/seo";
+﻿import SEO from "@/components/seo";
 import Wrapper from "@/layout/wrapper";
 import HeaderThree from '@/layout/headers/header-3';
 import HomeHeroSlider from '@/components/hero-banner/home-hero-slider';
@@ -30,3 +30,4 @@ export default function Home() {
     </Wrapper>
   )
 }
+

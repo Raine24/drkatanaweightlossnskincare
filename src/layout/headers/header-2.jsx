@@ -34,7 +34,7 @@ const HeaderTwo = ({ style_2 = false }) => {
                       <a href="https://www.facebook.com/profile.php?id=100045511818141" target="_blank" rel="noreferrer">
                         <span>
                           <Facebook />
-                        </span> Dr. Katana Beauty Centre
+                        </span> Dr. Katana Weight Loss &amp; Skincare
                       </a>
                     </div>
                     <div className="tp-header-info-item">
@@ -132,4 +132,5 @@ const HeaderTwo = ({ style_2 = false }) => {
 };
 
 export default HeaderTwo;
+
 

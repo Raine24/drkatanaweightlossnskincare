@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 // internal
@@ -44,3 +44,4 @@ const ErrorPage = () => {
 };
 
 export default ErrorPage;
+

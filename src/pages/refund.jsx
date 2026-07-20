@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import SEO from "@/components/seo";
 import HeaderTwo from "@/layout/headers/header-2";
 import Wrapper from "@/layout/wrapper";
@@ -7,7 +7,7 @@ import Footer from "@/layout/footers/footer";
 const RefundPage = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Refund Policy - Dr. Katana Beauty Centre" />
+      <SEO pageTitle="Refund Policy - Dr. Katana Weight Loss & Skincare" />
       <HeaderTwo style_2={true} />
       <section className="tp-about-area pt-120 pb-120">
         <div className="container">
@@ -16,7 +16,7 @@ const RefundPage = () => {
               <div className="policy-content" style={{ fontSize: '16px', lineHeight: '1.8', color: '#555' }}>
                 <h2 className="tp-section-title mb-40">Refund and Return Policy</h2>
                 
-                <p className="mb-20">At Dr. Katana Beauty Centre, we are committed to providing you with premium quality health, beauty, and wellness products. Please read our policy regarding returns and refunds carefully.</p>
+                <p className="mb-20">At Dr. Katana Weight Loss &amp; Skincare, we are committed to providing you with premium quality health, beauty, and wellness products. Please read our policy regarding returns and refunds carefully.</p>
                 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>1. Non-Returnable Items</h4>
                 <p className="mb-20">Due to hygiene and safety reasons, we do not accept returns or offer refunds on any skincare, cosmetics, or wellness/weight loss supplements once the packaging has been opened or the seal broken. Intimate products, including bedroom enhancement packages, are strictly non-returnable.</p>
@@ -44,3 +44,4 @@ const RefundPage = () => {
 };
 
 export default RefundPage;
+

@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import SEO from "@/components/seo";
 import HeaderTwo from "@/layout/headers/header-2";
 import Wrapper from "@/layout/wrapper";
@@ -7,7 +7,7 @@ import Footer from "@/layout/footers/footer";
 const TermsPage = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Terms & Conditions - Dr. Katana Beauty Centre" />
+      <SEO pageTitle="Terms & Conditions - Dr. Katana Weight Loss & Skincare" />
       <HeaderTwo style_2={true} />
       <section className="tp-about-area pt-120 pb-120">
         <div className="container">
@@ -16,10 +16,10 @@ const TermsPage = () => {
               <div className="policy-content" style={{ fontSize: '16px', lineHeight: '1.8', color: '#555' }}>
                 <h2 className="tp-section-title mb-40">Terms and Conditions</h2>
                 
-                <p className="mb-20">Welcome to Dr. Katana Beauty Centre & Weight Loss. These terms and conditions outline the rules and regulations for the use of our website and the purchase of our products.</p>
+                <p className="mb-20">Welcome to Dr. Katana Weight Loss &amp; Skincare. These terms and conditions outline the rules and regulations for the use of our website and the purchase of our products.</p>
                 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>1. General Use</h4>
-                <p className="mb-20">By accessing this website, we assume you accept these terms and conditions. Do not continue to use Dr. Katana Beauty Centre if you do not agree to take all of the terms and conditions stated on this page. All products, including weight loss supplements and skincare formulations, are subject to availability.</p>
+                <p className="mb-20">By accessing this website, we assume you accept these terms and conditions. Do not continue to use Dr. Katana Weight Loss &amp; Skincare if you do not agree to take all of the terms and conditions stated on this page. All products, including weight loss supplements and skincare formulations, are subject to availability.</p>
 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>2. Product Information</h4>
                 <p className="mb-20">We strive to display as accurately as possible the colors, features, specifications, and details of the products available on the site. However, we do not guarantee that the colors, features, specifications, and details of the products will be accurate, complete, reliable, current, or free of other errors, and your electronic display may not accurately reflect the actual colors and details of the products.</p>
@@ -44,3 +44,4 @@ const TermsPage = () => {
 };
 
 export default TermsPage;
+

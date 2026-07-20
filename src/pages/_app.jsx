@@ -1,4 +1,4 @@
-import store from "@/redux/store";
+﻿import store from "@/redux/store";
 import { Provider } from "react-redux";
 import ReactModal from "react-modal";
 import { Elements } from "@stripe/react-stripe-js";
@@ -30,3 +30,4 @@ export default function App({ Component, pageProps }) {
     </GoogleOAuthProvider>
   )
 }
+

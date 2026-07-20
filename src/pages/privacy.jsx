@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import SEO from "@/components/seo";
 import HeaderTwo from "@/layout/headers/header-2";
 import Wrapper from "@/layout/wrapper";
@@ -7,7 +7,7 @@ import Footer from "@/layout/footers/footer";
 const PrivacyPage = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Privacy Policy - Dr. Katana Beauty Centre" />
+      <SEO pageTitle="Privacy Policy - Dr. Katana Weight Loss & Skincare" />
       <HeaderTwo style_2={true} />
       <section className="tp-about-area pt-120 pb-120">
         <div className="container">
@@ -16,7 +16,7 @@ const PrivacyPage = () => {
               <div className="policy-content" style={{ fontSize: '16px', lineHeight: '1.8', color: '#555' }}>
                 <h2 className="tp-section-title mb-40">Privacy Policy</h2>
                 
-                <p className="mb-20">At Dr. Katana Beauty Centre & Weight Loss, accessible from our website and Kampala store, one of our main priorities is the privacy of our visitors and customers. This Privacy Policy document contains types of information that is collected and recorded by us and how we use it.</p>
+                <p className="mb-20">At Dr. Katana Weight Loss &amp; Skincare, accessible from our website and Kampala store, one of our main priorities is the privacy of our visitors and customers. This Privacy Policy document contains types of information that is collected and recorded by us and how we use it.</p>
                 
                 <h4 className="mb-10 mt-30" style={{ color: '#111' }}>1. Information We Collect</h4>
                 <p className="mb-20">We collect personal information that you voluntarily provide to us when you register on the website, express an interest in obtaining information about us or our products, or when you contact us via WhatsApp, phone, or email. The personal information we collect may include your name, phone number, email address, delivery address, and payment information.</p>
@@ -44,3 +44,4 @@ const PrivacyPage = () => {
 };
 
 export default PrivacyPage;
+

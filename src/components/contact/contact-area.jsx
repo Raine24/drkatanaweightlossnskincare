@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+﻿import React, { useState } from "react";
 
 const ContactArea = () => {
   const [formData, setFormData] = useState({ name: "", phone: "", email: "", message: "" });
@@ -16,14 +16,14 @@ const ContactArea = () => {
   return (
     <>
       <style>{`
-        /* â”€â”€â”€ Contact Page Wrapper â”€â”€â”€ */
+        /* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Contact Page Wrapper Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
         .kc-page {
           background: #f7f7f7;
           padding: 80px 0 100px;
           font-family: var(--tp-ff-jost, 'Jost', sans-serif);
         }
 
-        /* â”€â”€â”€ Page Header â”€â”€â”€ */
+        /* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Page Header Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
         .kc-header {
           display: flex;
           align-items: flex-start;
@@ -51,7 +51,7 @@ const ContactArea = () => {
           line-height: 1.8;
         }
 
-        /* â”€â”€â”€ Two-column layout â”€â”€â”€ */
+        /* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Two-column layout Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
         .kc-body {
           display: grid;
           grid-template-columns: 1.1fr 0.9fr;
@@ -63,7 +63,7 @@ const ContactArea = () => {
           .kc-header { flex-direction: column; gap: 16px; }
         }
 
-        /* â”€â”€â”€ Shared Panel â”€â”€â”€ */
+        /* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Shared Panel Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
         .kc-panel {
           background: #fff;
           border-radius: 16px;
@@ -80,7 +80,7 @@ const ContactArea = () => {
           margin-bottom: 28px;
         }
 
-        /* â”€â”€â”€ Form â”€â”€â”€ */
+        /* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Form Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
         .kc-form-row {
           display: grid;
           grid-template-columns: 1fr 1fr;
@@ -159,7 +159,7 @@ const ContactArea = () => {
           to   { opacity:1; transform:translateY(0); }
         }
 
-        /* â”€â”€â”€ Right Column â”€â”€â”€ */
+        /* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Right Column Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
         .kc-right { display: flex; flex-direction: column; gap: 24px; }
 
         /* Contact Info panel */
@@ -244,7 +244,7 @@ const ContactArea = () => {
           transform: translateY(-2px);
         }
 
-        /* â”€â”€â”€ Map â”€â”€â”€ */
+        /* Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ Map Ã¢â€â‚¬Ã¢â€â‚¬Ã¢â€â‚¬ */
         .kc-map {
           border-radius: 16px;
           overflow: hidden;
@@ -257,7 +257,7 @@ const ContactArea = () => {
       <div className="kc-page">
         <div className="container">
 
-          {/* â”€â”€ Page Header â”€â”€ */}
+          {/* Ã¢â€â‚¬Ã¢â€â‚¬ Page Header Ã¢â€â‚¬Ã¢â€â‚¬ */}
           <div className="kc-header">
             <h1 className="kc-header-title">Contact Us</h1>
             <p className="kc-header-desc">
@@ -266,10 +266,10 @@ const ContactArea = () => {
             </p>
           </div>
 
-          {/* â”€â”€ Body: Form + Info â”€â”€ */}
+          {/* Ã¢â€â‚¬Ã¢â€â‚¬ Body: Form + Info Ã¢â€â‚¬Ã¢â€â‚¬ */}
           <div className="kc-body">
 
-            {/* LEFT â€” Contact Form */}
+            {/* LEFT Ã¢â‚¬â€ Contact Form */}
             <div className="kc-panel">
               <p className="kc-panel-label">Get In Touch</p>
               <form onSubmit={handleSubmit}>
@@ -288,7 +288,7 @@ const ContactArea = () => {
                   </div>
                   <div className="kc-field kc-field-full">
                     <label>Your Message</label>
-                    <textarea name="message" value={formData.message} onChange={handleChange} rows={6} placeholder="Write your message hereâ€¦" required></textarea>
+                    <textarea name="message" value={formData.message} onChange={handleChange} rows={6} placeholder="Write your message hereÃ¢â‚¬Â¦" required></textarea>
                   </div>
                 </div>
                 <button type="submit" className="kc-submit-btn">
@@ -296,13 +296,13 @@ const ContactArea = () => {
                 </button>
                 {submitted && (
                   <div className="kc-success">
-                    ✅ Thank you! Your message has been received. We&apos;ll get back to you shortly.
+                    âœ… Thank you! Your message has been received. We&apos;ll get back to you shortly.
                   </div>
                 )}
               </form>
             </div>
 
-            {/* RIGHT â€” Contact Info + Hours */}
+            {/* RIGHT Ã¢â‚¬â€ Contact Info + Hours */}
             <div className="kc-right">
 
               {/* Contact Information */}
@@ -341,16 +341,16 @@ const ContactArea = () => {
                 <div className="kc-hours-divider"></div>
                 <div className="kc-hours-grid">
                   <div>
-                    <p className="kc-hours-slot-day">Monday â€“ Friday</p>
-                    <p className="kc-hours-slot-time">9:00 am â€“ 8:00 pm</p>
+                    <p className="kc-hours-slot-day">Monday Ã¢â‚¬â€œ Friday</p>
+                    <p className="kc-hours-slot-time">9:00 am Ã¢â‚¬â€œ 8:00 pm</p>
                   </div>
                   <div>
                     <p className="kc-hours-slot-day">Saturday</p>
-                    <p className="kc-hours-slot-time">9:00 am â€“ 6:00 pm</p>
+                    <p className="kc-hours-slot-time">9:00 am Ã¢â‚¬â€œ 6:00 pm</p>
                   </div>
                   <div>
                     <p className="kc-hours-slot-day">Sunday</p>
-                    <p className="kc-hours-slot-time">10:00 am â€“ 5:00 pm</p>
+                    <p className="kc-hours-slot-time">10:00 am Ã¢â‚¬â€œ 5:00 pm</p>
                   </div>
                 </div>
                 <div className="kc-hours-divider"></div>
@@ -367,14 +367,14 @@ const ContactArea = () => {
             </div>
           </div>
 
-          {/* â”€â”€ Map â”€â”€ */}
+          {/* Ã¢â€â‚¬Ã¢â€â‚¬ Map Ã¢â€â‚¬Ã¢â€â‚¬ */}
           <div className="kc-map">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.7547508386484!2d32.57525731529975!3d0.31375006406854095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x177dbb1203f1afab%3A0x3f0b84d1e1cd6fcf!2sAnnet%20Plaza%2C%20Kampala!5e0!3m2!1sen!2sug!4v1689800000000!5m2!1sen!2sug"
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Dr. Katana Beauty Centre â€“ Annet Plaza, Kampala"
+              title="Dr. Katana Weight Loss & Skincare Ã¢â‚¬â€œ Annet Plaza, Kampala"
             ></iframe>
           </div>
 
@@ -385,4 +385,5 @@ const ContactArea = () => {
 };
 
 export default ContactArea;
+
 

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+﻿import React, { useEffect } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 
@@ -27,7 +27,7 @@ const whyCards = [
     num: '01',
     icon: <QualityIcon />,
     title: 'Quality Products',
-    text: 'At Dr. Katana, we take pride in offering only the finest skincare and wellness products — carefully formulated using natural and organic ingredients that truly deliver results.',
+    text: 'At Dr. Katana, we take pride in offering only the finest skincare and wellness products â€” carefully formulated using natural and organic ingredients that truly deliver results.',
   },
   {
     num: '02',
@@ -39,7 +39,7 @@ const whyCards = [
     num: '03',
     icon: <ReputationIcon />,
     title: 'Positive Reputation',
-    text: 'Known and trusted across Kampala and beyond — Dr. Katana Beauty Centre is celebrated for excellent service, authentic products, and real, visible transformations.',
+    text: 'Known and trusted across Kampala and beyond â€” Dr. Katana Weight Loss & Skincare is celebrated for excellent service, authentic products, and real, visible transformations.',
   },
 ];
 
@@ -64,14 +64,14 @@ const BeautyOfferBanner = () => {
   return (
     <>
       <style>{`
-        /* ── Tokens ── */
+        /* â”€â”€ Tokens â”€â”€ */
         .hpab-section {
           font-family: var(--tp-ff-jost, 'Jost', sans-serif);
           background: #fff;
           overflow: hidden;
         }
 
-        /* ── Animation ── */
+        /* â”€â”€ Animation â”€â”€ */
         .hpab-anim {
           opacity: 0;
           transform: translateY(36px);
@@ -83,9 +83,9 @@ const BeautyOfferBanner = () => {
         .hpab-d3 { transition-delay: 0.34s !important; }
         .hpab-d4 { transition-delay: 0.46s !important; }
 
-        /* ─────────────────────────────────
+        /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
            ABOUT / STORY SECTION
-        ───────────────────────────────── */
+        â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
         .hpab-story { padding: 110px 0 120px; }
 
         .hpab-story-grid {
@@ -219,9 +219,9 @@ const BeautyOfferBanner = () => {
           box-shadow: 0 16px 40px rgba(0,0,0,0.2);
         }
 
-        /* ─────────────────────────────────
+        /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
            STATS STRIP
-        ───────────────────────────────── */
+        â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
         .hpab-stats {
           background: #1a0010;
           padding: 48px 0;
@@ -247,9 +247,9 @@ const BeautyOfferBanner = () => {
           letter-spacing: 2px; text-transform: uppercase;
         }
 
-        /* ─────────────────────────────────
+        /* â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
            WHY CHOOSE US
-        ───────────────────────────────── */
+        â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€ */
         .hpab-why { padding: 110px 0 120px; background: #f9f5f0; }
 
         .hpab-why-header { text-align: center; margin-bottom: 70px; }
@@ -342,7 +342,7 @@ const BeautyOfferBanner = () => {
         }
       `}</style>
 
-      {/* ── ABOUT / STORY SECTION ── */}
+      {/* â”€â”€ ABOUT / STORY SECTION â”€â”€ */}
       <section className="hpab-section hpab-story">
         <div className="container">
           <div className="hpab-story-grid">
@@ -369,21 +369,21 @@ const BeautyOfferBanner = () => {
                 &amp; Weight Loss
               </h2>
               <p className="hpab-story-body hpab-anim hpab-d2">
-                Dr. Katana Beauty Centre &amp; Weight Loss is a leading beauty store offering a curated range of women&apos;s beauty products, wellness solutions, and good luck miracle products. Our team of experts is dedicated to providing high-quality products that deliver real, visible results.
+                Dr. Katana Weight Loss &amp; Skincare is a leading beauty store offering a curated range of women&apos;s beauty products, wellness solutions, and good luck miracle products. Our team of experts is dedicated to providing high-quality products that deliver real, visible results.
                 <br /><br />
-                Our mission is to help every customer look and feel their best with our carefully selected and well-manufactured herbal products — from skincare and weight loss to sexual enhancers and beyond.
+                Our mission is to help every customer look and feel their best with our carefully selected and well-manufactured herbal products â€” from skincare and weight loss to sexual enhancers and beyond.
               </p>
 
               <div className="hpab-pills hpab-anim hpab-d2">
-                <span className="hpab-pill"><span className="hpab-pill-icon">🌿</span>Natural Ingredients</span>
-                <span className="hpab-pill"><span className="hpab-pill-icon">✨</span>Real Results</span>
-                <span className="hpab-pill"><span className="hpab-pill-icon">💎</span>Premium Quality</span>
+                <span className="hpab-pill"><span className="hpab-pill-icon">ðŸŒ¿</span>Natural Ingredients</span>
+                <span className="hpab-pill"><span className="hpab-pill-icon">âœ¨</span>Real Results</span>
+                <span className="hpab-pill"><span className="hpab-pill-icon">ðŸ’Ž</span>Premium Quality</span>
               </div>
 
               <div className="hpab-quote hpab-anim hpab-d3">
                 <p>&quot;Indulge in superior skincare and cosmetics designed to enhance your natural beauty through the perfect balance of science and nature.&quot;</p>
                 <div className="hpab-quote-author">
-                  <div className="hpab-quote-avatar">👩</div>
+                  <div className="hpab-quote-avatar">ðŸ‘©</div>
                   <div>
                     <div className="hpab-quote-name">Dr. Ritah Katana</div>
                     <div className="hpab-quote-role">Founder &amp; Beauty Expert</div>
@@ -393,7 +393,7 @@ const BeautyOfferBanner = () => {
 
               <div className="hpab-anim hpab-d3">
                 <Link href="/shop" className="hpab-cta">
-                  Shop Collection →
+                  Shop Collection â†’
                 </Link>
               </div>
             </div>
@@ -401,7 +401,7 @@ const BeautyOfferBanner = () => {
         </div>
       </section>
 
-      {/* ── STATS STRIP ── */}
+      {/* â”€â”€ STATS STRIP â”€â”€ */}
       <div className="hpab-stats">
         <div className="container">
           <div className="hpab-stats-grid">
@@ -415,16 +415,16 @@ const BeautyOfferBanner = () => {
         </div>
       </div>
 
-      {/* ── WHY CHOOSE US ── */}
+      {/* â”€â”€ WHY CHOOSE US â”€â”€ */}
       <section className="hpab-section hpab-why">
         <div className="container">
           <div className="hpab-why-header hpab-anim">
-            <div className="hpab-why-tag">✦ Why Choose Us</div>
+            <div className="hpab-why-tag">âœ¦ Why Choose Us</div>
             <h2 className="hpab-why-title">
               Our commitment to your<br /><em>beauty &amp; wellness</em>
             </h2>
             <p className="hpab-why-sub">
-              We go beyond products — we deliver confidence, transformation, and care with every order.
+              We go beyond products â€” we deliver confidence, transformation, and care with every order.
             </p>
             <div className="hpab-divider"></div>
           </div>
@@ -446,3 +446,4 @@ const BeautyOfferBanner = () => {
 };
 
 export default BeautyOfferBanner;
+

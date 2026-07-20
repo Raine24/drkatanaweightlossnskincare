@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import SEO from "@/components/seo";
 import HeaderTwo from "@/layout/headers/header-2";
 import Wrapper from "@/layout/wrapper";
@@ -8,7 +8,7 @@ import AboutArea from "@/components/about/about-area";
 const AboutPage = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="About Us - Dr. Katana Beauty Centre" />
+      <SEO pageTitle="About Us - Dr. Katana Weight Loss & Skincare" />
       <HeaderTwo style_2={true} />
       <AboutArea />
       <Footer primary_style={true} />
@@ -17,3 +17,4 @@ const AboutPage = () => {
 };
 
 export default AboutPage;
+

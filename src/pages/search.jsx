@@ -1,4 +1,4 @@
-import CommonBreadcrumb from "@/components/breadcrumb/common-breadcrumb";
+﻿import CommonBreadcrumb from "@/components/breadcrumb/common-breadcrumb";
 import ErrorMsg from "@/components/common/error-msg";
 import SearchPrdLoader from "@/components/loader/search-prd-loader";
 import ProductItem from "@/components/products/fashion/product-item";
@@ -91,7 +91,7 @@ export default function SearchPage({ query }) {
 
                           <div className="tp-shop-top-left d-flex align-items-center ">
                             <div className="tp-shop-top-result">
-                              <p>Showing 1–{product_items.length} of {all_products.length} results</p>
+                              <p>Showing 1â€“{product_items.length} of {all_products.length} results</p>
                             </div>
                           </div>
 
@@ -170,3 +170,4 @@ export const getServerSideProps = async (context) => {
     },
   };
 };
+

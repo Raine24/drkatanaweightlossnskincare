@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import SEO from "@/components/seo";
 import HeaderTwo from "@/layout/headers/header-2";
 import Wrapper from "@/layout/wrapper";
@@ -8,7 +8,7 @@ import ContactArea from "@/components/contact/contact-area";
 const ContactPage = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Contact Us - Dr. Katana Beauty Centre" />
+      <SEO pageTitle="Contact Us - Dr. Katana Weight Loss & Skincare" />
       <HeaderTwo style_2={true} />
       <ContactArea />
       <Footer primary_style={true} />
@@ -17,3 +17,4 @@ const ContactPage = () => {
 };
 
 export default ContactPage;
+

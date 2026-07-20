@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from "react";
+﻿import React, { useEffect, useRef } from "react";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -11,17 +11,17 @@ const stats = [
 
 const features = [
   {
-    icon: "🌿",
+    icon: "ðŸŒ¿",
     title: "Natural Ingredients",
     desc: "We source premium natural extracts and botanicals for every product we create.",
   },
   {
-    icon: "✨",
+    icon: "âœ¨",
     title: "Innovative Formulations",
     desc: "Cutting-edge blends that combine tradition with modern skincare science.",
   },
   {
-    icon: "💎",
+    icon: "ðŸ’Ž",
     title: "Premium Quality",
     desc: "Dermatologist-tested formulas that are both effective and safe for all skin types.",
   },
@@ -30,7 +30,7 @@ const features = [
 const values = [
   {
     title: "Authenticity",
-    desc: "We are transparent about every ingredient we use. No hidden chemicals, no false promises — just honest, effective beauty.",
+    desc: "We are transparent about every ingredient we use. No hidden chemicals, no false promises â€” just honest, effective beauty.",
   },
   {
     title: "Inclusivity",
@@ -61,7 +61,7 @@ const AboutArea = () => {
   return (
     <>
       <style>{`
-        /* ── Tokens ── */
+        /* â”€â”€ Tokens â”€â”€ */
         :root {
           --ab-cream: #f9f5f0;
           --ab-warm:  #f2ebe1;
@@ -71,7 +71,7 @@ const AboutArea = () => {
           --ab-font:  var(--tp-ff-jost, 'Jost', sans-serif);
         }
 
-        /* ── Shared ── */
+        /* â”€â”€ Shared â”€â”€ */
         .ab-page { font-family: var(--ab-font); background: #fff; }
         .ab-animate { opacity: 0; transform: translateY(30px); transition: opacity 0.7s ease, transform 0.7s ease; }
         .ab-animate.ab-animated { opacity: 1; transform: translateY(0); }
@@ -89,7 +89,7 @@ const AboutArea = () => {
         .ab-divider { width: 48px; height: 2px; background: var(--ab-pink); border-radius: 2px; margin: 0 0 24px; }
         .ab-divider.center { margin: 0 auto 24px; }
 
-        /* ── HERO ── */
+        /* â”€â”€ HERO â”€â”€ */
         .ab-hero {
           background: var(--ab-cream);
           padding: 90px 0 70px;
@@ -150,7 +150,7 @@ const AboutArea = () => {
           .ab-hero-img-wrap.tall { height: 340px; }
         }
 
-        /* ── STATS STRIP ── */
+        /* â”€â”€ STATS STRIP â”€â”€ */
         .ab-stats {
           background: var(--ab-dark);
           padding: 40px 0;
@@ -177,7 +177,7 @@ const AboutArea = () => {
           letter-spacing: 1px; text-transform: uppercase;
         }
 
-        /* ── STORY SECTION ── */
+        /* â”€â”€ STORY SECTION â”€â”€ */
         .ab-story { padding: 100px 0; background: #fff; }
         .ab-story-grid {
           display: grid;
@@ -305,7 +305,7 @@ const AboutArea = () => {
           box-shadow: 0 10px 28px rgba(194,24,91,0.3);
         }
 
-        /* ── VALUES SECTION ── */
+        /* â”€â”€ VALUES SECTION â”€â”€ */
         .ab-values { padding: 100px 0; background: var(--ab-cream); }
         .ab-values-header { text-align: center; margin-bottom: 64px; }
         .ab-values-title {
@@ -351,7 +351,7 @@ const AboutArea = () => {
         }
         .ab-val-body { font-size: 14px; color: #000; line-height: 1.8; margin: 0; }
 
-        /* ── FEATURES HIGHLIGHT ── */
+        /* â”€â”€ FEATURES HIGHLIGHT â”€â”€ */
         .ab-highlight { padding: 100px 0; background: #fff; }
         .ab-highlight-grid {
           display: grid;
@@ -402,7 +402,7 @@ const AboutArea = () => {
         .ab-mosaic-img.span2 { grid-column: 1 / -1; }
         .ab-mosaic-img img { width: 100%; height: 100%; object-fit: cover; }
 
-        /* ── CTA STRIP ── */
+        /* â”€â”€ CTA STRIP â”€â”€ */
         .ab-cta-strip {
           background: linear-gradient(135deg, #1a0010 0%, #4a0028 50%, var(--ab-pink) 100%);
           padding: 80px 0;
@@ -434,15 +434,15 @@ const AboutArea = () => {
 
       <div className="ab-page">
 
-        {/* ── HERO ── */}
+        {/* â”€â”€ HERO â”€â”€ */}
         <section className="ab-hero">
           <div className="container">
-            <span className="ab-hero-eyebrow ab-animate">✦ Dr. Katana Beauty Centre</span>
+            <span className="ab-hero-eyebrow ab-animate">âœ¦ Dr. Katana Weight Loss &amp; Skincare</span>
             <h1 className="ab-hero-title ab-animate ab-delay-1">
               About <em>Us</em>
             </h1>
             <p className="ab-hero-sub ab-animate ab-delay-2">
-              Explore our skincare &amp; wellness essentials — crafted for a radiant, confident you.
+              Explore our skincare &amp; wellness essentials â€” crafted for a radiant, confident you.
             </p>
 
             <div className="ab-hero-imgs ab-animate ab-delay-3">
@@ -459,7 +459,7 @@ const AboutArea = () => {
           </div>
         </section>
 
-        {/* ── STATS ── */}
+        {/* â”€â”€ STATS â”€â”€ */}
         <section className="ab-stats">
           <div className="container">
             <div className="ab-stats-grid">
@@ -473,7 +473,7 @@ const AboutArea = () => {
           </div>
         </section>
 
-        {/* ── STORY ── */}
+        {/* â”€â”€ STORY â”€â”€ */}
         <section className="ab-story">
           <div className="container">
             <div className="ab-story-grid">
@@ -492,23 +492,23 @@ const AboutArea = () => {
 
               {/* Text */}
               <div className="ab-animate ab-delay-2">
-                <span className="ab-tag">✦ Our Story</span>
+                <span className="ab-tag">âœ¦ Our Story</span>
                 <div className="ab-divider"></div>
                 <h2 className="ab-story-title">
                   Dr. Katana <em>Beauty Centre</em> &amp; Weight Loss
                 </h2>
                 <p className="ab-story-body">
-                  Dr. Katana Beauty Centre &amp; Weight Loss was born from a passion for helping every woman feel confident, radiant, and powerful in her own skin. Our wide selection of skincare, weight management, and wellness products are expertly made to guarantee you get the glowing appearance you want and deserve.
+                  Dr. Katana Weight Loss &amp; Skincare was born from a passion for helping every woman feel confident, radiant, and powerful in her own skin. Our wide selection of skincare, weight management, and wellness products are expertly made to guarantee you get the glowing appearance you want and deserve.
                 </p>
 
                 <div className="ab-feat-row">
                   <div className="ab-feat-card">
-                    <div className="ab-feat-icon">🌿</div>
+                    <div className="ab-feat-icon">ðŸŒ¿</div>
                     <h5>Natural Ingredients</h5>
                     <p>Premium botanicals sourced for optimal skin health and results.</p>
                   </div>
                   <div className="ab-feat-card">
-                    <div className="ab-feat-icon">✨</div>
+                    <div className="ab-feat-icon">âœ¨</div>
                     <h5>Exceptional Results</h5>
                     <p>Every pampering session brings visible, lasting changes.</p>
                   </div>
@@ -517,7 +517,7 @@ const AboutArea = () => {
                 <div className="ab-quote">
                   <p>&quot;Indulge in superior skincare and cosmetics designed to enhance your natural beauty through the perfect balance of science and nature.&quot;</p>
                   <div className="ab-quote-author">
-                    <div className="ab-quote-avatar">👩</div>
+                    <div className="ab-quote-avatar">ðŸ‘©</div>
                     <div>
                       <div className="ab-quote-name">Dr. Ritah Katana</div>
                       <div className="ab-quote-role">Founder &amp; Beauty Expert</div>
@@ -526,18 +526,18 @@ const AboutArea = () => {
                 </div>
 
                 <Link href="/shop" className="ab-cta-btn">
-                  Shop Collection →
+                  Shop Collection â†’
                 </Link>
               </div>
             </div>
           </div>
         </section>
 
-        {/* ── VALUES ── */}
+        {/* â”€â”€ VALUES â”€â”€ */}
         <section className="ab-values">
           <div className="container">
             <div className="ab-values-header ab-animate">
-              <span className="ab-tag">✦ What We Stand For</span>
+              <span className="ab-tag">âœ¦ What We Stand For</span>
               <h2 className="ab-values-title">
                 Refined quality for <em>lasting rejuvenation.</em>
               </h2>
@@ -557,13 +557,13 @@ const AboutArea = () => {
           </div>
         </section>
 
-        {/* ── FEATURES HIGHLIGHT ── */}
+        {/* â”€â”€ FEATURES HIGHLIGHT â”€â”€ */}
         <section className="ab-highlight">
           <div className="container">
             <div className="ab-highlight-grid">
               {/* Text side */}
               <div className="ab-animate">
-                <span className="ab-tag">✦ Why Choose Us</span>
+                <span className="ab-tag">âœ¦ Why Choose Us</span>
                 <div className="ab-divider"></div>
                 <h2 className="ab-highlight-title">
                   Science meets <em>nature</em> in every formula.
@@ -602,7 +602,7 @@ const AboutArea = () => {
           </div>
         </section>
 
-        {/* ── CTA STRIP ── */}
+        {/* â”€â”€ CTA STRIP â”€â”€ */}
         <section className="ab-cta-strip">
           <div className="container">
             <h2 className="ab-animate">
@@ -612,7 +612,7 @@ const AboutArea = () => {
               Browse our full collection of premium beauty &amp; wellness products.
             </p>
             <Link href="/shop" className="ab-cta-strip-btn ab-animate ab-delay-2">
-              Shop Now →
+              Shop Now â†’
             </Link>
           </div>
         </section>
@@ -623,3 +623,4 @@ const AboutArea = () => {
 };
 
 export default AboutArea;
+

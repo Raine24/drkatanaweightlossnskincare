@@ -1,4 +1,4 @@
-import React from "react";
+﻿import React from "react";
 import SEO from "@/components/seo";
 import HeaderTwo from "@/layout/headers/header-2";
 import Wrapper from "@/layout/wrapper";
@@ -7,7 +7,7 @@ import Footer from "@/layout/footers/footer";
 const ShippingPage = () => {
   return (
     <Wrapper>
-      <SEO pageTitle="Shipping Policy - Dr. Katana Beauty Centre" />
+      <SEO pageTitle="Shipping Policy - Dr. Katana Weight Loss & Skincare" />
       <HeaderTwo style_2={true} />
       <section className="tp-about-area pt-120 pb-120">
         <div className="container">
@@ -44,3 +44,4 @@ const ShippingPage = () => {
 };
 
 export default ShippingPage;
+
