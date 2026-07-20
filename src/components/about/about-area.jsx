@@ -11,17 +11,17 @@ const stats = [
 
 const features = [
   {
-    icon: "ðŸŒ¿",
+    icon: "🌿",
     title: "Natural Ingredients",
     desc: "We source premium natural extracts and botanicals for every product we create.",
   },
   {
-    icon: "âœ¨",
+    icon: "✨",
     title: "Innovative Formulations",
     desc: "Cutting-edge blends that combine tradition with modern skincare science.",
   },
   {
-    icon: "ðŸ’Ž",
+    icon: "💎",
     title: "Premium Quality",
     desc: "Dermatologist-tested formulas that are both effective and safe for all skin types.",
   },
@@ -30,7 +30,7 @@ const features = [
 const values = [
   {
     title: "Authenticity",
-    desc: "We are transparent about every ingredient we use. No hidden chemicals, no false promises â€” just honest, effective beauty.",
+    desc: "We are transparent about every ingredient we use. No hidden chemicals, no false promises — just honest, effective beauty.",
   },
   {
     title: "Inclusivity",
@@ -437,12 +437,12 @@ const AboutArea = () => {
         {/* â”€â”€ HERO â”€â”€ */}
         <section className="ab-hero">
           <div className="container">
-            <span className="ab-hero-eyebrow ab-animate">âœ¦ Dr. Katana Weight Loss &amp; Skincare</span>
+            <span className="ab-hero-eyebrow ab-animate">✦ Dr. Katana Weight Loss &amp; Skincare</span>
             <h1 className="ab-hero-title ab-animate ab-delay-1">
               About <em>Us</em>
             </h1>
             <p className="ab-hero-sub ab-animate ab-delay-2">
-              Explore our skincare &amp; wellness essentials â€” crafted for a radiant, confident you.
+              Explore our skincare &amp; wellness essentials — crafted for a radiant, confident you.
             </p>
 
             <div className="ab-hero-imgs ab-animate ab-delay-3">
@@ -492,7 +492,7 @@ const AboutArea = () => {
 
               {/* Text */}
               <div className="ab-animate ab-delay-2">
-                <span className="ab-tag">âœ¦ Our Story</span>
+                <span className="ab-tag">✦ Our Story</span>
                 <div className="ab-divider"></div>
                 <h2 className="ab-story-title">
                   Dr. Katana <em>Beauty Centre</em> &amp; Weight Loss
@@ -503,12 +503,12 @@ const AboutArea = () => {
 
                 <div className="ab-feat-row">
                   <div className="ab-feat-card">
-                    <div className="ab-feat-icon">ðŸŒ¿</div>
+                    <div className="ab-feat-icon">🌿</div>
                     <h5>Natural Ingredients</h5>
                     <p>Premium botanicals sourced for optimal skin health and results.</p>
                   </div>
                   <div className="ab-feat-card">
-                    <div className="ab-feat-icon">âœ¨</div>
+                    <div className="ab-feat-icon">✨</div>
                     <h5>Exceptional Results</h5>
                     <p>Every pampering session brings visible, lasting changes.</p>
                   </div>
@@ -517,7 +517,7 @@ const AboutArea = () => {
                 <div className="ab-quote">
                   <p>&quot;Indulge in superior skincare and cosmetics designed to enhance your natural beauty through the perfect balance of science and nature.&quot;</p>
                   <div className="ab-quote-author">
-                    <div className="ab-quote-avatar">ðŸ‘©</div>
+                    <div className="ab-quote-avatar">👩</div>
                     <div>
                       <div className="ab-quote-name">Dr. Ritah Katana</div>
                       <div className="ab-quote-role">Founder &amp; Beauty Expert</div>
@@ -526,7 +526,7 @@ const AboutArea = () => {
                 </div>
 
                 <Link href="/shop" className="ab-cta-btn">
-                  Shop Collection â†’
+                  Shop Collection →
                 </Link>
               </div>
             </div>
@@ -537,7 +537,7 @@ const AboutArea = () => {
         <section className="ab-values">
           <div className="container">
             <div className="ab-values-header ab-animate">
-              <span className="ab-tag">âœ¦ What We Stand For</span>
+              <span className="ab-tag">✦ What We Stand For</span>
               <h2 className="ab-values-title">
                 Refined quality for <em>lasting rejuvenation.</em>
               </h2>
@@ -563,7 +563,7 @@ const AboutArea = () => {
             <div className="ab-highlight-grid">
               {/* Text side */}
               <div className="ab-animate">
-                <span className="ab-tag">âœ¦ Why Choose Us</span>
+                <span className="ab-tag">✦ Why Choose Us</span>
                 <div className="ab-divider"></div>
                 <h2 className="ab-highlight-title">
                   Science meets <em>nature</em> in every formula.
@@ -612,7 +612,7 @@ const AboutArea = () => {
               Browse our full collection of premium beauty &amp; wellness products.
             </p>
             <Link href="/shop" className="ab-cta-strip-btn ab-animate ab-delay-2">
-              Shop Now â†’
+              Shop Now →
             </Link>
           </div>
         </section>

@@ -288,7 +288,7 @@ const ContactArea = () => {
                   </div>
                   <div className="kc-field kc-field-full">
                     <label>Your Message</label>
-                    <textarea name="message" value={formData.message} onChange={handleChange} rows={6} placeholder="Write your message hereÃ¢â‚¬Â¦" required></textarea>
+                    <textarea name="message" value={formData.message} onChange={handleChange} rows={6} placeholder="Write your message here…" required></textarea>
                   </div>
                 </div>
                 <button type="submit" className="kc-submit-btn">
@@ -296,7 +296,7 @@ const ContactArea = () => {
                 </button>
                 {submitted && (
                   <div className="kc-success">
-                    âœ… Thank you! Your message has been received. We&apos;ll get back to you shortly.
+                    ✅ Thank you! Your message has been received. We&apos;ll get back to you shortly.
                   </div>
                 )}
               </form>
@@ -341,16 +341,16 @@ const ContactArea = () => {
                 <div className="kc-hours-divider"></div>
                 <div className="kc-hours-grid">
                   <div>
-                    <p className="kc-hours-slot-day">Monday Ã¢â‚¬â€œ Friday</p>
-                    <p className="kc-hours-slot-time">9:00 am Ã¢â‚¬â€œ 8:00 pm</p>
+                    <p className="kc-hours-slot-day">Monday – Friday</p>
+                    <p className="kc-hours-slot-time">9:00 am – 8:00 pm</p>
                   </div>
                   <div>
                     <p className="kc-hours-slot-day">Saturday</p>
-                    <p className="kc-hours-slot-time">9:00 am Ã¢â‚¬â€œ 6:00 pm</p>
+                    <p className="kc-hours-slot-time">9:00 am – 6:00 pm</p>
                   </div>
                   <div>
                     <p className="kc-hours-slot-day">Sunday</p>
-                    <p className="kc-hours-slot-time">10:00 am Ã¢â‚¬â€œ 5:00 pm</p>
+                    <p className="kc-hours-slot-time">10:00 am – 5:00 pm</p>
                   </div>
                 </div>
                 <div className="kc-hours-divider"></div>
@@ -374,7 +374,7 @@ const ContactArea = () => {
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="Dr. Katana Weight Loss & Skincare Ã¢â‚¬â€œ Annet Plaza, Kampala"
+              title="Dr. Katana Weight Loss & Skincare – Annet Plaza, Kampala"
             ></iframe>
           </div>
 
