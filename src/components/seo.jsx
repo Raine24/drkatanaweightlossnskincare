@@ -1,4 +1,4 @@
-﻿import Head from "next/head";
+import Head from "next/head";
 
 
 const SEO = ({pageTitle}) => (
@@ -14,7 +14,7 @@ const SEO = ({pageTitle}) => (
         name="viewport"
         content="width=device-width, initial-scale=1, shrink-to-fit=no"
       />
-      <link rel="icon" href="/favicon.png" />
+      <link rel="icon" href="/favicon.jpg" />
     </Head>
   </>
 );
